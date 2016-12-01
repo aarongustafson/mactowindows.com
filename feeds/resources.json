@@ -1,0 +1,16 @@
+---
+layout: nil
+---
+
+[
+{% for resource in site.data.resources %}
+	{
+		"title":       "{{ resource.title }}",
+		"author":      "{{ resource.author }}",
+		"image":       "{{ resource.image | prepend: site.baseurl | prepend: site.url }}",
+		"url":         "{{ resource.url }}",
+		"description": "{{ resource.description | markdownify }}",
+		"tags":        [{% for tag in resource.tags %}"{{ tag }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}]
+	}{% if forloop.last %}{% else %},{% endif %}
+{% endfor %}
+]
