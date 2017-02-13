@@ -12,8 +12,8 @@ gulp.task('css', function() {
     
     var paths = {
         srcPath:     './_source/scss/**/*.scss',
-        destPath:    './c',
-        importsPath: './source/scss/'
+        destPath:    './_site/c',
+        importsPath: './_source/scss/'
     };
 
     return gulp.src(paths.srcPath)
@@ -24,12 +24,12 @@ gulp.task('css', function() {
         .pipe(gulp.dest(paths.destPath))
         .pipe(rename({suffix: '.min'}))
         .pipe(shorthand())
-        .pipe(uncss({
-            html: ['_site/**/*.html'],
-            ignore: [
-                // /winners/
-            ]
-         }))
+        //.pipe(uncss({
+        //   html: ['_site/**/*.html'],
+        //    ignore: [
+        //        // /winners/
+        //    ]
+        // }))
         .pipe(csso())
         .pipe(minifycss())
         .pipe(gulp.dest(paths.destPath))

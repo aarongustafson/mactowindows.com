@@ -7,7 +7,7 @@ var gulp     = require('gulp'),
 gulp.task('images', function() {
 	
 	var paths = {
-        srcPath: './source/images',
+        srcPath: './_source/images',
         destPath: './i'
     };
 	

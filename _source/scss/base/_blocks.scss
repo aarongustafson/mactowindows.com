@@ -1,0 +1,45 @@
+/*------------------------------------*\
+    Block-level Semantics
+\*------------------------------------*/
+@include breakup-breakpoint( "global" ) {
+    
+    * {
+        margin-top: 0;
+        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+    
+    * + * {
+	    margin-top: $default-spacing-fallback; // no rem
+        margin-top: $default-spacing; // rem
+    }
+
+    section {
+        margin-top: $default-spacing-fallback * 2; // no rem
+        margin-top: $default-spacing * 2; // rem
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid $color-blue;
+        max-width: 33%;
+        margin: $default-spacing * 2 auto; // rem
+    }
+
+    br {
+        margin-top: 0;
+    }
+
+    article,
+    aside,
+    figure,
+    footer,
+    header,
+    main,
+    nav,
+    section,
+    small {
+        display: block;
+    }
+
+}

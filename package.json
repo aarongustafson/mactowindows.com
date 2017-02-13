@@ -1,8 +1,8 @@
 {
-  "name": "microsoft.com/switch",
+  "name": "mactowindows_com",
   "version": "1.0.0",
-  "description": "Switch to Microsoft Windows",
-  "repository": "https://github.com/Microsoft/SwitchSite",
+  "description": "Mac to Windows",
+  "repository": "https://github.com/aarongustafson/mactowindows.com",
   "private": true,
   "devDependencies": {
     "gulp": "~3.9.0",

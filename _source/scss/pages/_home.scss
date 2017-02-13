@@ -1,0 +1,77 @@
+/*------------------------------------*\
+    Homepage
+\*------------------------------------*/
+
+@include breakup-breakpoint("medium") {
+    .home #judges .gallery {
+        max-width: rem(645);
+    }
+}
+
+@include breakup-breakpoint("larger") {
+        
+    .home {
+    
+        #rules {
+            float: right;
+            margin-top: -#{$default-spacing * 2.1};
+            width: calc( 50% - #{$half-spacing} );
+        }
+
+        #prizes {
+            float: left;
+            width: calc( 50% - #{$half-spacing} );
+
+            h2 {
+                clear: none;
+            }
+
+            h3 {
+                color: darken( $color-orange, 5% );
+                font-family: $font-stack-body;
+                font-weight: bold;
+                text-align: center;
+
+                b {
+                    font-weight: normal;
+                    font-size: $font-size-caption;
+                    display: block;
+                }
+            }
+        }
+        
+        #gallery,
+        #judges {
+            clear: both;
+            padding-top: $half-spacing;
+        }
+
+    }
+
+}
+
+@include breakup-breakpoint("full") {
+        
+    .home {
+    
+        #judges {
+            padding-top: 1.5 * $default-spacing;
+
+            .gallery {
+                max-width: 100%;
+            }
+        }
+
+        #gallery,
+        #notable {
+
+            padding-top: 1.5 * $default-spacing;
+
+            & + #judges {
+                padding-top: 0;
+            }
+        }
+
+    }
+
+}

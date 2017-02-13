@@ -1,0 +1,10 @@
+<div class="resource">
+	{% if resource.image %}
+		<div class="resource__image" data-src="{{ resource.author }}"></div>
+	{% endif %}
+	<h3 class="resource__title"><a href="{{ resource.url }}">{{ resource.title }}</a></h3>
+	{% if resource.author %}
+		<b class="resource__byline">by {{ resource.author }}</b>
+	{% endif %}
+	<p class="resource__description">{{ resource.description | truncatewords: 20 }}</p>
+</div>

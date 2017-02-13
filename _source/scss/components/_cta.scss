@@ -1,0 +1,72 @@
+/*------------------------------------*\
+    Calls To Action
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+	.cta {
+		@include button;
+   		margin: $default-spacing 0;
+
+		svg {
+			fill: $color-white;
+		    display: inline-block;
+			width: 1em;
+			height: 1em;
+			vertical-align: bottom;
+			margin-right: .25em;
+			margin-bottom: .18em;
+		}
+    }
+	
+	.cta:link,
+	.cta:visited {
+		@extend .cta;
+		display: inline-block;
+	}
+	.cta:hover,
+	.cta:focus {
+		background: darken( $color-orange, 10% );
+		background: $gradient-nav-hover;
+		color: color-white;
+
+		@media (-ms-high-contrast: white-on-black) {
+			background: $color-yellow;
+			color: $color-black;
+			font-weight: bold;
+		}
+		@media (-ms-high-contrast: black-on-white) {
+  			background: $color-black;
+			color: $color-white;
+			font-weight: bold;
+		}
+	}
+
+	.cta--facebook:link,
+	.cta--facebook:visited {
+		background: #2C4388;
+	}
+	.cta--github:link,
+	.cta--github:visited {
+		background: $color-black;
+		color: $color-white;
+	}
+	.cta--google:link,
+	.cta--google:visited {
+		background: #CD2621;
+	}
+	.cta--twitter:link,
+	.cta--twitter:visited {
+		background: #138BF3;
+	}
+
+	.cta-callout {
+		text-align: center;
+
+		.cta {
+			display: inline-block;
+			margin-top: 0;
+		}
+	}
+
+}

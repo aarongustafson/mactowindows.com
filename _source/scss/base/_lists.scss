@@ -1,0 +1,47 @@
+/*------------------------------------*\
+    Lists
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+    ol,
+    ul {
+        line-height: $line-height-default;
+        margin-left: $default-spacing;
+        padding-left: 0;
+        
+        nav & {
+            @include breakup-placeholder( delist );
+            margin: 0;
+            
+            li {
+                margin: 0;
+            }
+        }
+    }
+
+    li + li {
+        margin-top: $half-spacing;
+    }
+
+    ol ol {
+        list-style-type: lower-alpha;
+    }
+
+}
+
+@include breakup-breakpoint( "full" ) {
+
+    // Hanging!
+    ol,
+    ul {
+        margin-left: 0;
+
+        & ol,
+        & ul {
+            margin-top: 0;
+            margin-left: $default-spacing;
+        }
+    }
+
+}

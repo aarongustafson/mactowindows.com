@@ -1,0 +1,113 @@
+/*------------------------------------*\
+    Hero
+\*------------------------------------*/
+
+// Edge consolation for two-column layout: less precision
+$two-column-half-spacing: round( $half-spacing * 100 ) / 100;
+
+@include breakup-breakpoint( "global" ) {
+
+    .gallery {
+		
+		list-style: none;
+		margin: 0 auto;
+		padding: 0;
+
+		&__item {
+			margin: $default-spacing 0 0;
+		}
+		
+	}
+
+}
+
+@include breakup-breakpoint( "small" ) {
+
+	.gallery {
+	
+		// no flexbox
+		@include clear-children;
+
+		// flexbox
+		display: flex;
+		justify-content: center;
+		align-items: top;
+		flex-wrap: wrap;
+		
+		&__item {
+			// no flexbox
+			float: left;
+			width: 45%; // no calc
+			width: calc( 50% - #{$two-column-half-spacing} );
+			margin: $default-spacing 0 0 $default-spacing;
+
+			// flexbox
+			flex: 0 0 calc( 50% - #{$two-column-half-spacing} );
+		}
+
+	}
+
+	@include breakup-media( "(max-width:#{$bp-medium-sandbox})" ) {
+		.gallery__item:nth-child(odd) {
+			margin-left: 0;
+			clear: left;
+		}
+	}
+	
+}
+
+@include breakup-breakpoint( "medium" ) {
+	
+	@include breakup-media( "(max-width:#{$bp-full-sandbox})" ) {
+		.gallery .gallery__item {
+			// no flexbox
+			width: 30%; // no calc
+			width: calc( (100% - #{round( $default-spacing * 2)}) / 3 );
+
+			// flexbox
+			flex: 0 0 calc( (100% - #{$default-spacing * 2}) / 3 );
+		}
+
+		.gallery__item:nth-child(3n+1) {
+			margin-left: 0;
+			clear: left;
+		}
+	}
+
+}
+
+@include breakup-breakpoint( "full" ) {
+
+    .gallery {
+		
+		&__item {
+			// no flexbox
+			width: 14.7%; // no calc
+			width: calc( (100% - 6.875rem) / 6 );
+			
+			// flexbox			
+			flex: 0 0 calc( (100% - 6.875rem)/6 );
+			
+			&:nth-child(6n+1) {
+				clear: left;
+				margin-left: 0;
+			}
+		}
+
+		&--big &__item {
+			// no flexbox
+			width: 30%; // no calc
+			width: calc( (100% - 5.75rem) / 3 );
+			margin: #{2 * $default-spacing} 0 0 #{2 * $default-spacing};			
+
+			// flexbox
+			flex: 0 0 calc( (100% - 5.75rem)/3 );
+			
+			&:nth-child(3n+1) {
+				clear: left;
+				margin-left: 0;
+			}
+		}
+	}
+	
+}

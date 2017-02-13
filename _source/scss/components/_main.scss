@@ -1,0 +1,52 @@
+/*------------------------------------*\
+    Main
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+    main {
+        display: block; // <= IE11
+        flex-grow: 1;
+        padding: 0 .5em;
+        margin: $default-spacing auto 0;
+
+        #mactowindows_com &:focus {
+            outline-width: 0;
+        }
+    }
+   
+}
+
+@include breakup-breakpoint( "small" ) {
+
+    main {
+        padding: 0 $default-spacing;
+    }
+   
+}
+
+@include breakup-breakpoint( "large" ) {
+
+    .split {
+        padding: 0 ($bp-large-em - $max-split-width-em) 0 $default-spacing; // no calc
+        // IE 11 ch widths are off (http://caniuse.com/#feat=ch-unit)
+        padding: 0 calc(100% - #{$max-split-width}) 0 $default-spacing;
+        position: relative;
+    }
+   
+}
+
+@include breakup-breakpoint( "full" ) {
+
+    main {
+        padding: 0;
+        max-width: $bp-full-rem;
+    }
+    
+    .split {
+        padding-left: 0;
+        padding-right: #{$bp-full-em - $max-split-width-em};
+        padding-right: calc(#{$bp-full-rem} - #{$max-split-width});
+    }
+   
+}

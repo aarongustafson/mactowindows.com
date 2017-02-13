@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="405px" viewBox="0 0 400 405" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>windows</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Windows_darkblue_2012_svg" sketch:type="MSLayerGroup" fill="#0078D6">
+            <g id="g4186" transform="translate(-1.190476, -1.190476)" sketch:type="MSShapeGroup">
+                <path d="M178.571429,195.238095 L401.190476,195.238095 L401.190476,1.19047619 L178.571429,33.7156941 L178.571429,195.238095 Z" id="svg_23"></path>
+                <path d="M163.095238,195.238095 L163.095238,35.7142857 L1.19047619,59.3659595 L1.19047619,195.238095 L163.095238,195.238095 Z" id="svg_24"></path>
+                <path d="M163.095238,209.52381 L1.19047619,209.52381 L1.19047619,346.437075 L163.095238,370.238095 L163.095238,209.52381 Z" id="svg_25"></path>
+                <path d="M178.571429,209.52381 L178.571429,373.073532 L401.190476,405.952381 L401.190476,209.52381 L178.571429,209.52381 Z" id="svg_26"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,316 @@
+@charset "UTF-8";
+/*------------------------------------*    Main CSS
+\*------------------------------------*/
+/*------------------------------------*    $VENDORS
+	Other people’s code
+\*------------------------------------*/
+/*------------------------------------*    $HELPERS
+	SASS Tools
+\*------------------------------------*/
+/*------------------------------------*    Configuration
+\*------------------------------------*/
+/*	Debug controls
+	========================================================================== */
+/*	Legacy support
+	========================================================================== */
+/*	Browser defaults
+	========================================================================== */
+/*------------------------------------*    Functions
+\*------------------------------------*/
+/*------------------------------------*    Variables
+\*------------------------------------*/
+/*	URLs
+	========================================================================== */
+/*	Breakpoint Management
+	========================================================================== */
+/*	Grid Management
+	========================================================================== */
+/*	Typography
+	========================================================================== */
+/*	Colors
+	========================================================================== */
+/*	Images
+	========================================================================== */
+/*	Defaults
+	========================================================================== */
+/*	Other Config
+	========================================================================== */
+/*------------------------------------*    Mixins
+\*------------------------------------*/
+/*------------------------------------*    Placeholders
+\*------------------------------------*/
+body {
+  font-size: 1.25rem;
+  font-weight: normal;
+  line-height: 1.4; }
+  .wf-active body {
+    word-spacing: 2px; }
+
+nav ol, nav ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0; }
+
+.hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px); }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased; }
+
+/*------------------------------------*    $BASE
+	Global element styles
+\*------------------------------------*/
+/*------------------------------------*    Body-level settings
+\*------------------------------------*/
+@-moz-viewport {
+  width: device-width;
+  zoom: 1.0; }
+
+@-ms-viewport {
+  width: device-width;
+  zoom: 1.0; }
+
+@-webkit-viewport {
+  width: device-width;
+  zoom: 1.0; }
+
+@viewport {
+  width: device-width;
+  zoom: 1.0; }
+
+html {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+body {
+  background: #0E0E0E;
+  color: #EDEDED;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin: 0 auto;
+  min-width: 240px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  min-height: 100vh; }
+  body > * {
+    width: 100%; }
+
+/*------------------------------------*    Heading Levels
+\*------------------------------------*/
+h1, h2, h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+  line-height: 1.1;
+  clear: both; }
+  h1 + *, h2 + *, h3 + * {
+    margin-top: 0.6875rem; }
+
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  font-size: 2rem;
+  border-top: 3px solid;
+  padding-top: 0.6875rem; }
+
+h3 {
+  font-size: 1.5rem; }
+
+/*------------------------------------*    Block-level Semantics
+\*------------------------------------*/
+* {
+  margin-top: 0;
+  margin-bottom: 0;
+  box-sizing: border-box; }
+
+* + * {
+  margin-top: 22px;
+  margin-top: 1.375rem; }
+
+hr {
+  border: none;
+  border-top: 1px solid #1191D0;
+  max-width: 33%;
+  margin: 2.75rem auto; }
+
+br {
+  margin-top: 0; }
+
+article,
+aside,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+small {
+  display: block; }
+
+/*------------------------------------*    Lists
+\*------------------------------------*/
+ol,
+ul {
+  line-height: 1.4;
+  margin-left: 1.375rem;
+  padding-left: 0; }
+  nav ol, nav
+  ul {
+    margin: 0; }
+    nav ol li, nav
+    ul li {
+      margin: 0; }
+
+li + li {
+  margin-top: 0.6875rem; }
+
+ol ol {
+  list-style-type: lower-alpha; }
+
+/*------------------------------------*    Links
+\*------------------------------------*/
+a {
+  text-decoration: none; }
+  a:link, a:visited {
+    color: #D6451F;
+    border-bottom: 1px dotted;
+    border-bottom-color: rgba(214, 69, 31, 0.25);
+    cursor: pointer;
+    transition: all 0.25s ease; }
+  a:hover, a:focus, a:active {
+    color: #D10E00;
+    border-bottom-color: #D10E00; }
+  a[href^=mailto], a[href^=tel] {
+    white-space: nowrap; }
+
+.clickable {
+  cursor: pointer; }
+
+#akapart :focus {
+  outline: 3px solid #000;
+  box-shadow: inset 0px 0px 0px 1px #fff; }
+  @media (-ms-high-contrast: white-on-black) {
+    #akapart :focus {
+      outline: 3px solid #F3AF1D;
+      box-shadow: inset 0px 0px 0px 1px #000; } }
+
+/*------------------------------------*    Text-level semantics
+\*------------------------------------*/
+time {
+  white-space: nowrap; }
+
+small {
+  font-size: 1em; }
+
+code {
+  color: #D6451F;
+  font-size: 1.6875rem; }
+
+*:-o-prefocus, code {
+  font-size: inherit; }
+
+/*------------------------------------*    Media Elements
+\*------------------------------------*/
+img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+picture {
+  display: block;
+  position: relative; }
+  picture:before {
+    box-shadow: inset 0 0 4.125rem rgba(0, 0, 0, 0.1);
+    content: "\00A0";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; }
+  picture img {
+    margin-top: 0;
+    width: 100%; }
+
+/*------------------------------------*    $COMPONENTS
+	Interface patterns
+\*------------------------------------*/
+/*------------------------------------*    Header
+\*------------------------------------*/
+.banner {
+  position: relative;
+  margin-bottom: 1.375rem; }
+
+.logo {
+  background: #0E0E0E;
+  color: #EDEDED; }
+  .logo * + * {
+    margin: 0; }
+
+.site-title {
+  font-size: 2rem;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  text-align: center;
+  white-space: nowrap; }
+  .site-title a {
+    border: 0;
+    display: block;
+    padding: .5em;
+    transition: none; }
+
+/*------------------------------------*    Main
+\*------------------------------------*/
+main {
+  display: block;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  padding: 0 .5em;
+  margin: 1.375rem auto 0; }
+  main:focus {
+    outline-width: 0; }
+
+/*------------------------------------*    Footer
+\*------------------------------------*/
+footer {
+  background: #060606;
+  color: #EDEDED;
+  text-align: center;
+  margin-top: 1.375rem;
+  padding: 1.375rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  footer small {
+    font-size: 0.875rem; }
+  footer a:link,
+  footer a:visited {
+    color: #EDEDED;
+    border-color: #EDEDED;
+    white-space: nowrap; }
+  footer a, footer br {
+    margin-top: 0; }
+
+/*------------------------------------*    $PAGES
+	Page-specific styles
+	(use sparingly)
+\*------------------------------------*/
+/*------------------------------------*    Homepage
+\*------------------------------------*/

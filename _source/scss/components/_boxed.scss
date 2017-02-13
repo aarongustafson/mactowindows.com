@@ -1,0 +1,66 @@
+/*------------------------------------*\
+    Boxed
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+    .boxed {
+		background: $color-grey;
+		
+		font-size: $font-size-caption;
+
+		margin-left: -0.5em;
+		margin-right: -0.5em;
+		padding: 0 $half-spacing-fallback $default-spacing-fallback; // no rem
+		padding: 0 $half-spacing $default-spacing; // rem
+		
+		h1, h2, h3 {
+			background: $color-orange;
+			color: $color-white;
+			
+			font-size: $font-size-h3;
+			text-align: center;
+
+			border: 0;
+			margin: 0 -#{$half-spacing} $default-spacing;
+			padding: $default-spacing;
+		}
+
+		& > :first-child {
+			padding-top: $default-spacing;
+		}
+		
+		&--with-cta {
+			margin-bottom: $default-spacing * 2;
+			
+			& > :last-child {
+				height: 0;
+				text-align: center;
+			}
+		}
+		
+		.cta {
+			margin: 0;
+		}
+
+	}
+
+}
+
+@include breakup-breakpoint( "small" ) {
+
+    .boxed {
+		margin-left: -#{$default-spacing};
+		margin-right: -#{$default-spacing};
+		padding: 0 $default-spacing $default-spacing;
+		
+		h1, h2, h3 {
+			margin: 0 -#{$default-spacing} $default-spacing;
+		}
+	}
+
+	ol.boxed {
+		padding-left: $default-spacing * 2;
+	}
+
+}

@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    Text-level semantics
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+    time {
+        white-space: nowrap;
+    }
+
+    small {
+        font-size: 1em;
+    }
+
+    code {
+        color: $color-orange;
+        font-size: $font-size-code;
+    }
+
+    // Opera enlarges code text by default
+    *:-o-prefocus, code {
+        font-size: inherit;
+    }
+
+    // Hidden
+    .hidden {
+        @include breakup-placeholder( hidden );
+    }
+
+}

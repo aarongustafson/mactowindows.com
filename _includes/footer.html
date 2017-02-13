@@ -1,3 +1,14 @@
+{% capture contributors %}{% for r in site.data.resources %}{% if r.contributed_by %}|{{ r.contributed_by }}{% endif %}{% endfor %}{% endcapture %}
+{% assign folks = contributors | replace_first:'|','' | split:'|' | uniq %}
+
 <footer class="contentinfo" role="contentinfo">
+
 	<small id="copyright">The code &amp; contents of this site are licensed freely under the liberal MIT license. All resources linked herein are licensed independently.</small>
+
+	{% if folks.size > 0 %}
+        <small>Many thanks to
+            {% for github_username in folks %}{% if forloop.last == true and forloop.first == false %}{% if forloop.length > 2 %},{% endif %} and {% else %}{% if forloop.first != true %}, {% endif %}{% endif %}<a href="https://github.com/{{ github_username }}">{{ github_username }}</a>{% endfor %}
+            for helping us gather these resources.</small>
+    {% endif %}
+
 </footer>

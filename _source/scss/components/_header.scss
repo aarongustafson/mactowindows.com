@@ -1,0 +1,69 @@
+/*------------------------------------*\
+    Header
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+    .banner {
+        background: $color-black;
+        position: relative;
+        margin-bottom: $default-spacing;
+    }
+
+    .logo {
+
+        background: $color-background;
+        color: $color-white;
+        
+        * + * {
+            margin: 0;
+        }
+
+   }
+
+    .banner__title {
+
+        font-size: $font-size-h1;
+        font-weight: normal;
+        letter-spacing: -0.02em;
+        text-align: center;
+        white-space: nowrap;
+        
+        a {
+            border: 0;
+            display: block;
+            padding: .5em;
+
+            color: $color-white;
+            
+            transition: none;
+
+            &:before {
+                background: url(/i/logo.png) no-repeat;
+                background-size: contain;
+
+                content: '';
+
+                display: inline-block;
+                width: 2em;
+                height: 2em;
+                margin-right: .5em;
+                vertical-align: middle;
+
+                position: relative;
+                margin-top: -.1em;
+            }
+        }
+        
+    }
+    
+}
+    
+@include breakup-breakpoint( "full" ) {
+	
+	.banner {
+        margin: 0;
+        padding: $default-spacing calc( ( 100% - #{$bp-full-rem} ) / 2 );
+	}
+	
+}

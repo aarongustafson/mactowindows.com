@@ -1,0 +1,44 @@
+/*------------------------------------*\
+    Voting Info
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+    .vote {
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.cta {
+			font-size: $font-size-nav;
+			margin-top: $half-spacing;
+			margin-bottom: 0;
+		}
+	}
+
+}
+
+@include breakup-breakpoint( "large" ) {
+	
+	.vote {
+		
+		margin: 0;
+
+		position: absolute;
+		top: 0;
+		right: 0;
+		
+		// IE 11 ch widths are off (http://caniuse.com/#feat=ch-unit)
+		width: calc(100% - #{$max-split-width} - #{$default-spacing});
+
+		h2 {
+			border-width: 0;
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+}

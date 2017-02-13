@@ -1,0 +1,214 @@
+/*------------------------------------*\
+    Projects
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+    .project {
+        
+		background: $color-grey;
+		border-bottom: 3px solid $color-border;
+		padding: $half-spacing;
+		
+		position: relative;
+        
+		h2,
+		h3 {
+			border-width: 0;
+			font-size: $font-size-h3;
+			padding: 0;
+			margin: $half-spacing 0 0;
+		}
+
+		p {
+			//font-size: $font-size-body;
+		}
+
+		picture {
+			margin: -#{$half-spacing} -#{$half-spacing} #{$half-spacing};
+		}
+		
+		img {
+			display: block;
+			object-fit: contain;
+		}
+		
+		&__won {
+			color: $color-orange;
+			display: block;
+		}
+		
+		&__author {
+			display: block;
+			margin: 0;
+		}
+		
+		&__name {
+			font-family: $font-stack-body;
+			font-size: $font-size-body;
+			
+			display: block;
+			margin: 0;
+			
+			&:link,
+			&:visited {
+				color: $color-text;
+				border-width: 0;
+			}
+		}
+
+		&--hero,
+		&--minipromo,
+		&--page {
+			background: transparent;
+			border-width: 0;
+			padding: 0;
+
+			picture {
+				margin: 0;
+			}
+
+			.project__author {
+				color: $color-orange;
+				display: inline;
+			}
+
+			.project__name:after {
+				content: "View this Project";
+				@include button;
+				margin: $default-spacing 0;	
+			}
+		}
+		
+		&--hero,
+		&--page {
+
+			.project__won {
+				font-size: $font-size-h2;
+			}
+				
+			.project__name {
+				font-size: $font-size-h2;
+				position: relative;
+
+				&:after {
+					position: absolute;
+					bottom: 100%;
+					right: 0;
+					margin: 0 0 $half-spacing;
+				}
+			}
+
+			@supports (display: flex) {
+			
+				h2,
+				h3 {
+					display: flex;
+					flex-direction: column;
+				}
+
+				.project__won {
+					margin-top: 0;
+					order: 1;
+				}
+				
+				picture {
+					margin-top: $half-spacing;
+					order: 2;
+				}
+
+				.project__name {
+					margin-top: $half-spacing;
+					order: 3;
+				}
+
+			}
+		
+		}
+
+		&--winner &__won {
+			background: url(/i/c/star.png);
+			background: url(/i/c/star.svg),none;
+			background-size: contain;
+
+			// Hide the text
+			overflow: hidden;
+    		text-indent: 2rem;
+			white-space: nowrap;
+
+			// Make the box
+    		width: 2rem;
+    		height: 2rem;
+    		
+    		position: absolute;
+    		top: 0;
+    		left: 0;
+    		margin: -1rem 0 0 -1rem;
+		}
+		
+		&--preview img {
+			height: 75%;
+			width: 100%;
+		}
+
+		&--page picture {
+			margin: 0 0 $default-spacing;
+		}
+
+    }
+
+}
+
+@include breakup-breakpoint( "medium" ) {
+	
+	@supports (display: flex) {
+
+		.project--minipromo[data-imaged] {
+
+			display: flex;
+			flex-wrap: none;
+			padding: 0;
+
+			img {
+				position: relative;
+				width: 100%;
+			}
+
+			picture {
+				flex: 0 1 50%;
+				margin-right: $default-spacing;
+
+				&:before {
+					display: none;
+				}
+			}
+
+			h2,
+			h3 {
+				flex: 0 1 50%;
+				margin: 0;
+			}
+
+			.project__name {
+				font-size: $font-size-body;
+			}
+
+		}
+
+	}
+
+}
+
+@include breakup-breakpoint( "full" ) {
+
+	$the-width: unquote("#{$bp-full-rem - (2 * $default-spacing)} - #{$max-split-width}");
+
+	.split .project--preview {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 19.75em; // no calc
+		width: calc(#{$the-width});
+	}
+
+}

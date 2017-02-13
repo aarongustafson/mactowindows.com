@@ -1,0 +1,131 @@
+/*------------------------------------*\
+    Variables
+\*------------------------------------*/
+
+/*	URLs
+	========================================================================== */
+$domain: "http://mactowindows.com";
+
+
+/*	Breakpoint Management
+	========================================================================== */
+$bp-tiny: 240;
+$bp-tiny-em: em( $bp-tiny );
+$bp-tiny-sandbox: em( $bp-tiny - 1 );
+$bp-small: 320;
+$bp-small-em: em( $bp-small );
+$bp-small-sandbox: em( $bp-small - 1 );
+$bp-medium: 480;
+$bp-medium-em: em( $bp-medium );
+$bp-medium-sandbox: em( $bp-medium - 1 );
+$bp-large: 640;
+$bp-large-em: em( $bp-large );
+$bp-large-sandbox: em( $bp-large - 1 );
+$bp-larger: 780;
+$bp-larger-em: em( $bp-larger );
+$bp-larger-sandbox: em( $bp-larger - 1 );
+$bp-full: 960;
+$bp-full-em: em( $bp-full );
+$bp-full-rem: rem( $bp-full );
+$bp-full-sandbox: em( $bp-full - 1 );
+$breakup-breakpoints: (
+    "global":       "screen",
+    "tiny":         "(min-width: #{$bp-tiny-em})",
+    "small":        "(min-width: #{$bp-small-em})",
+    "medium":       "(min-width: #{$bp-medium-em})",
+    "large":        "(min-width: #{$bp-large-em})",
+    "larger":       "(min-width: #{$bp-larger-em})",
+    "full":         "(min-width: #{$bp-full-em})",
+    "print":        "print",
+    "old-ie":       "screen"
+);
+
+
+/*	Grid Management
+	========================================================================== */
+$grid-full-column-sizes: "( 60px 20px )";
+$grid-breakpoints: (
+    "tiny":     3,
+    "small":    6,
+    "medium":   8,
+    "full":     12
+);
+
+/*	Typography
+	========================================================================== */
+// Font Stacks
+$font-stack-sansserif: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+$font-stack-serif: Georgia, Times, "Times New Roman", serif;
+$font-stack-headings: $font-stack-serif;
+$font-stack-body: $font-stack-sansserif;
+$font-stack-nav: $font-stack-serif;
+
+// Font-weights
+$font-weight-sansserif: 400;
+$font-weight-sansserif-bold: 700;
+$font-weight-serif: 500;
+$font-weight-mono: 500;
+
+// Font sizes
+$font-size-h1: rem( 48 );
+$font-size-h2: rem( 32 );
+$font-size-h3: rem( 24 );
+$font-size-body: rem( 20 );
+$font-size-nav: rem( 18 );
+$font-size-caption: rem( 16 );
+$font-size-code: rem( 27 );
+$font-size-small: rem( 14 );
+$font-size-tiny: rem( 12 );
+
+// Line heights
+$line-height-default: 1.4;
+$line-height-headings: 1.1;
+
+// spacing
+$default-spacing: rem( 22 );
+$default-spacing-fallback: 22px;
+$half-spacing: rem( 11 );
+$half-spacing-fallback: 11px;
+$margin-default: 0 0 $default-spacing;
+$margin-default-fallback: 0 0 $default-spacing-fallback;
+
+/*	Colors
+	========================================================================== */
+// Color Names
+$color-black: #060606;
+$color-white: #ebebeb;
+$color-grey: #0E0E0E;
+$color-blue: #1191D0;
+$color-orange: #D6451F;
+$color-red: #D10E00;
+$color-yellow: #F3AF1D;
+
+// Functional Colors
+$color-background: $color-grey;
+$color-text: $color-white;
+$color-link: lighten( $color-blue, 15% );
+$color-link-hover: lighten( $color-blue, 25% );
+$color-border: $color-black;
+$color-rule: $color-blue;
+$color-nav: $color-blue;
+$color-footer: $color-black;
+
+// Greadients
+//$gradient-nav: linear-gradient( to bottom, $color-orange, darken( $color-orange, 3% ) );
+//$gradient-nav-hover: linear-gradient( to bottom, darken( $color-orange, 3% ), darken( $color-orange, 6% ) );
+//$gradient-footer: linear-gradient( to bottom, $color-blue, darken( $color-blue, 5% ) );
+
+/*	Images
+	========================================================================== */
+$css_images: "/i/c";
+
+/*	Defaults
+	========================================================================== */
+$default-box-shadow: 1px 1px 0 $color-rule;
+$default-transition: .25s ease;
+
+/*	Other Config
+	========================================================================== */
+$max-split-width: rem(600);
+$max-split-width-em: 37.5em;
+$logo-max-width: rem(258);

@@ -1,0 +1,24 @@
+/*------------------------------------*\
+    Calls To Action
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+    .faq {
+		margin: 0 -0.5em;
+		padding: $default-spacing .5em;
+		
+		&:target {
+			animation: highlight 2s 1 linear;
+  			border: 0 solid transparent;
+			border-width: 3px 0;
+		}
+		
+		h2 {
+			color: $color-text;
+			border: 0;
+			padding: 0;
+		}		
+	}
+
+}

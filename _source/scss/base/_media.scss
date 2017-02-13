@@ -1,0 +1,35 @@
+/*------------------------------------*\
+    Media Elements
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+    // Responsive images
+    img {
+        display: block;
+    	max-width: 100%;
+    	height: auto;
+    }
+    picture {
+    	
+        display: block;
+        position: relative;
+
+        // inset shadowing
+        &:before {
+            box-shadow: inset 0 0 #{$default-spacing * 3} rgba(0,0,0,.1);
+            content: "\00A0";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+
+        img {
+            margin-top: 0;
+            width: 100%;
+        }
+    }
+
+}

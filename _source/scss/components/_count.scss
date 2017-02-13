@@ -1,0 +1,42 @@
+/*------------------------------------*\
+    Count (based on data-count attribute)
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+	@keyframes count-issue {
+		0% {
+			background-color: #f5baba;
+		}
+		100% {
+			background-color: #fff;
+		}
+	}
+	@keyframes count-good {
+		0% {
+			background-color: #b6e4a9;
+		}
+		100% {
+			background-color: #fff;
+		}
+	}
+
+    .count {
+		animation-duration: 2s;
+		animation-fill-mode: forwards;
+		animation-timing-function: ease-out;
+
+		&--good {
+			animation-name: count-good;
+		}
+		&--under,
+		&--over {
+			animation-name: count-issue;
+
+			& + strong {
+				color: $color-red;
+			}
+		} 
+	}
+
+}

@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    Text-level semantics
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+    @keyframes highlight {
+		from {
+			background: $color-orange-light;
+			border-color: $color-orange;
+		}
+		to {
+			background: transparent;
+			border-color: transparent;
+		}
+	}
+
+}

@@ -1,0 +1,57 @@
+/*------------------------------------*\
+    Hero
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+    .hero {
+        
+        position: relative;
+    
+        img,
+        svg {
+            display: none;
+        }
+    
+	}
+
+}
+
+@include breakup-breakpoint("larger") {
+    
+    .hero {
+        
+        padding-right: calc( 50% + #{$half-spacing} );
+        
+        * {
+            position: relative;
+            z-index: 1;
+        }
+
+        picture {
+            position: static;
+        }
+
+        svg,
+        img {
+            display: block;
+            margin: 0;
+            width: 57%;
+            max-height: 90%;
+            
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 0;
+        }
+
+        img {
+            max-width: 56.5%;
+        }
+    }
+
+    #crank {
+        cursor: move;
+    }
+
+}

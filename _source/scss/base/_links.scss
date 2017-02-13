@@ -1,0 +1,51 @@
+/*------------------------------------*\
+    Links
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+    a {
+	    text-decoration: none;
+	
+    	&:link,
+    	&:visited {
+    	    color: $color-link;
+
+            border-bottom: 1px dotted;
+            border-bottom-color: rgba( $color-link, .25 );
+
+        	cursor: pointer;
+
+            transition: all $default-transition;
+    	}
+
+    	&:hover,
+    	&:focus,
+    	&:active {
+    		color: $color-link-hover;
+    		border-bottom-color: $color-link-hover;
+    	}
+	
+    	// don’t wrap phone #s or emails
+    	&[href^=mailto],
+    	&[href^=tel] {
+    	    white-space: nowrap;
+    	}
+
+    }
+
+	.clickable {
+        cursor: pointer;
+    }
+
+	#mactowindows_com :focus {
+		outline: 3px solid $color-white;
+		box-shadow: inset 0px 0px 0px 1px $color-grey;
+
+		@media (-ms-high-contrast: white-on-black) {
+  			outline: 3px solid $color-yellow;
+			box-shadow: inset 0px 0px 0px 1px $color-grey;
+		}
+	}
+	
+}

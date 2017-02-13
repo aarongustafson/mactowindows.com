@@ -1,0 +1,87 @@
+/*------------------------------------*\
+    Boxed
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+	@keyframes cookie-banner {
+		0% {
+			max-height: 0;
+		}
+		50% {
+			max-height: 0;
+		}
+		100% {
+			max-height: 20em;
+		}
+	}
+	@keyframes cookie-banner-reverse {
+		0% {
+			max-height: 20em;
+		}
+		100% {
+			max-height: 0;
+			display: none;
+		}
+	}
+
+	#cookie-banner {
+		background: black;
+		color: white;
+		
+		font-size: $font-size-small;
+		text-align: center;
+		
+		box-sizing: border-box;
+		overflow: hidden;
+		animation: cookie-banner 1s 1s linear forwards;
+
+		& + .banner {
+			transition: margin-top .5s;
+		}
+
+		&.closing {
+			animation: cookie-banner-reverse .5s linear forwards;
+
+			& + .banner {
+				margin-top: 0;
+			}	
+		}
+
+		form {
+			margin: 0;
+			padding: .5em;
+		}
+
+		p,
+		a {
+			color: white;
+			border-bottom-color: white;
+			display: inline;
+		}
+
+		button {
+			font-size: $font-size-small;
+			margin: $half-spacing auto 0;
+		}
+	}
+
+}
+
+@include breakup-breakpoint( "full" ) {
+
+	#cookie-banner {
+		margin: 0;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 1000;
+
+		button {
+			display: inline;
+			margin: 0 0 0 $half-spacing;
+		}
+	}
+
+}

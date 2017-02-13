@@ -7,9 +7,6 @@ module Jekyll
       end
       if tag
         collection.each do |item|
-          puts "looking for #{tag} in "
-          puts item['tags'].inspect
-          puts item['tags'].include?(tag)
           if ( item['tags'].kind_of?(String) && item['tags'] == '*' ) ||
              ( item['tags'].kind_of?(Array) && item['tags'].include?(tag) )
             new_collection << item

@@ -7,18 +7,20 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
     notify = require('gulp-notify'),
-    rename = require('gulp-rename');
-
-gulp.task('js', folder(source_folder, function(folder){
-    
-    var paths = {
-        srcPath: './source/javascript',
+    rename = require('gulp-rename'),
+    paths = {
+        srcPath: './_source/javascript',
         destPath: './j'
     };
 
-    function rename_serviceworker = rename({
-        dirname: '../'
-    });
+gulp.task('js', folder(paths.srcPath, function(folder){
+    
+    function rename_serviceworker()
+    { 
+        return rename({
+            dirname: '../'
+        });
+    }
 	
 	function createErrorHandler( name )
     {
@@ -27,14 +29,14 @@ gulp.task('js', folder(source_folder, function(folder){
 	    };
     }
 
-    return gulp.src(path.join(source_folder, folder, '*.js'))
+    return gulp.src(path.join(paths.srcPath, folder, '*.js'))
         .pipe(concat(folder + '.js'))
         .pipe(insert.prepend('(function(window,document){'))
         .pipe(insert.append('}(this,this.document));'))
         .pipe(gulp.dest(destination_folder))
         .pipe(uglify().on('error', createErrorHandler('uglify')))
         .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest(destination_folder))
+        .pipe(gulp.dest(paths.destPath))
         .pipe(notify({ message: 'Scripts task complete' }));
     
 }));

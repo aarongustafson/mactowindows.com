@@ -1,0 +1,54 @@
+/*------------------------------------*\
+    Footer
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+    footer {
+        
+        background: $color-footer;
+        color: $color-white;
+
+        text-align: center;
+
+        margin-top: $default-spacing;        
+        padding: $default-spacing;
+        
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        small {
+            font-size: $font-size-small;
+    	}
+        
+        a:link,
+        a:visited {
+            color: $color-white;
+            border-color: $color-white;
+            white-space: nowrap;
+        }
+
+        a, br {
+            margin-top: 0;
+        }
+
+    }
+
+}
+
+@include breakup-breakpoint( "large" ) {
+
+    footer {
+        margin-top: $default-spacing * 2;        
+    }
+
+}
+
+@include breakup-breakpoint( "full" ) {
+	
+	footer {
+        padding: $default-spacing calc( ( 100% - #{$bp-full-rem} ) / 2 );
+	}
+	
+}

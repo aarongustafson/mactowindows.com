@@ -1,0 +1,50 @@
+/*------------------------------------*\
+    Hero
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+    .h-card {
+		background: $color-blue-dark;
+		color: $color-white;
+		line-height: $line-height-headings;
+		
+		// flexbox
+		display: flex;
+		flex-direction: column;
+		a {
+			flex-grow: 1;
+		}
+		
+		a:link,
+		a:visited {
+			color: $color-white;
+			display: block;
+			margin: 0;
+		}
+		&.clickable:hover a,
+		a:focus,
+		a:hover {
+			background: $color-orange;
+			color: $color-white;
+		}
+		
+		b {
+			font-family: $font-stack-headings;
+			font-weight: normal;
+			display: block;
+			margin-top: 0;
+			padding: $half-spacing;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		picture {
+			flex: 0 0 auto;
+		}
+		
+	}
+
+}

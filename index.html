@@ -13,15 +13,11 @@ description: Here are some resources that should help you get started.
 
 		<section id="{{ tag.slug }}" class="section section--{{ tag.slug }}">
 			<h2 class="section__title">{{ tag.title }}</h2>
-			<ul>
+			<ul class="resource-list">
 				{% for resource in resources limit:site.post_teaser_limit %}
-				<li class="resource resource--{{ forloop.index0 }}">
-					<h3 class="resource__title"><a href="{{ resource.url }}">{{ resource.title }}</a></h3>
-					{% if resource.author %}
-						<b class="resource__byline">by {{ resource.author }}</b>
-					{% endif %}
-					<p class="resource__description">{{ resource.description | truncatewords: 20 }}</p>
-				</li>
+					<li class="resource-list__item resource-list__item--{{ forloop.index0 }}">
+               			{% include resource.html %}
+           			</li>
 				{% endfor %}
 			</ul>	
 

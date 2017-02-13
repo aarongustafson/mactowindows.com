@@ -1,0 +1,41 @@
+/*------------------------------------*\
+    Pagination
+\*------------------------------------*/
+
+@include breakup-breakpoint( "global" ) {
+
+	.pagination {
+		margin: #{2 * $default-spacing} auto 0;
+		text-align: center;
+
+		a {
+			@extend .cta;
+			margin: 0 0 0 $default-spacing;
+		}
+	}
+
+	@supports (display: flex) {
+		.pagination {
+			
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			
+			a {
+				margin: 0;
+			}
+
+			.prev {
+				order: 1;
+			}
+			.current { 
+				order: 2;
+				margin: 0 $half-spacing;
+			}
+			.next {
+				order: 3;
+			}
+		}
+	}
+
+}

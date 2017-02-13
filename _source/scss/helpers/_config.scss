@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    Configuration
+\*------------------------------------*/
+
+/*	Debug controls
+	========================================================================== */
+$debug-grid: false; // true;
+
+/*	Legacy support
+	========================================================================== */
+$legacy-support-for-ie6: true;
+$legacy-support-for-ie7: true;
+$legacy-support-for-ie8: true;
+$support-for-original-webkit-gradients: true;
+
+/*	Browser defaults
+	========================================================================== */
+$font-size-default: 16px;

@@ -1,0 +1,35 @@
+/*------------------------------------*\
+    Winners block
+\*------------------------------------*/
+
+@include breakup-breakpoint( "medium" ) {
+
+    @supports (display: flex) {
+
+		.winners {
+			display: flex;
+			justify-content: center;
+			align-items: flex-start;
+			flex-wrap: wrap;
+
+			&__overall,
+			&__categories {
+				flex: 0 0 100%;
+			}
+		}
+
+	}
+
+}
+
+@include breakup-breakpoint( "larger" ) {
+	
+	.winners__overall,
+	.winners__categories {
+		flex: 0 0 calc( ( 100% - #{$default-spacing} ) / 2 );
+	}
+
+	.winners__overall {
+		margin-right: $default-spacing;
+	}
+}

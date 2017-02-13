@@ -3,32 +3,14 @@ layout: default
 ---
 
 {% assign resources = site.data.resources | by_tag:{{page.tag}} %}
-{% capture contributors %}{% for r in resources %}{% if r.contributed_by %}|{{ r.contributed_by }}{% endif %}{% endfor %}{% endcapture %}
-{% assign folks = contributors | replace_first:'|','' | split:'|' %}
-
 {% if resources.size > 0 %}
     <ul class="resource-list">
         {% for resource in resources %}
-        <li class="resource resource-list__item">
-            <h2 class="resource__title"><a href="{{ resource.url }}">{{ resource.title }}</a></h2>
-            {% if resource.author %}
-                <b class="resource__byline">by {{ resource.author }}</b>
-            {% endif %}
-            <p class="resource__description">{{ resource.description }}</p>
-        </li>
+            <li class="resource-list__item resource-list__item--{{ forloop.index0 }}">
+                {% include resource.html %}
+            </li>
         {% endfor %}
     </ul>
-
-    {% if folks.size > 0 %}
-        <footer class="contributors">
-            <p>
-                Many thanks to
-                {% for github_username in folks %}{% if forloop.last == true and forloop.first == false %}{% if forloop.length > 2 %},{% endif %} and {% else %}{% if forloop.first != true %}, {% endif %}{% endif %}<a href="https://github.com/{{ github_username }}">{{ github_username }}</a>{% endfor %}
-                for collecting these resources.
-            </p>
-        </footer>
-    {% endif %}
-
 {% else %}
     <p>We don’t have any resources for this seciton yet. You you consider adding some? We accept pull requests.</p>
 {% endif %}
