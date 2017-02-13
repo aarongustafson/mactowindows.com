@@ -3,11 +3,10 @@
 #  image: image to use (optional)
 #  url: Link to?
 #  description: "Markdown is supported here"
-#  tags: Array of tags, e.g. [design,development]
+#  tags: Array of tags, e.g. [design,development] or * (see tags.yml)
 
 - title: Mac-like Special Characters in Windows
   author: Aaron Gustafson
-  image: image to use (optional)
   url: https://www.aaron-gustafson.com/notebook/mac-like-special-characters-in-windows/
   description: "For nearly a decade, Aaron has been writing and developing on a Mac and he absolutely loves how much easier it is to use special characters. Here’s how he made it a reality in Windows 10."
-  tags: [design, development]
+  tags: '*'

@@ -1,0 +1,36 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: home
+---
+
+<h1>Switching from Mac to Windows?</h1>
+
+<p>Here are some resources that should help you get started.</p>
+
+{% for tag in site.data.tags | sort:"title" %}
+	{% assign resources = site.data.resources | by_tag:{{ tag.slug }} %}
+
+	{% if resources.size > 0 %}
+		<section id="{{ tag.slug }}">
+			<h2>{{ tag.title }}</h2>
+		
+			{% for resource in resources %}
+				{% if forloop.first == true %}
+					<ul>
+				{% endif %}
+				<li>
+					<h3><a href="{{ resource.url }}">{{ resource.title }}</a></h3>
+					{% if resource.author %}
+						<b class="resource__byline">by {{ resource.author }}</b>
+					{% endif %}
+					<p>{{ resource.description | truncatewords: 20 }}</p>
+				</li>
+				{% if forloop.last == true %}
+					</ul>
+				{% endif %}
+			{% endfor %}
+		</section>
+	{% endif %}
+{% endfor %}
