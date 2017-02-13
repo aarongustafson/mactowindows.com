@@ -1,0 +1,48 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Language" content="en"/>
+
+	<title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+	<meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | truncate: 160 }}{% endif %}">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="{{ "/c/default.css" | prepend: site.baseurl }}" media="all">
+	<link rel="stylesheet" href="{{ "/c/advanced.css" | prepend: site.baseurl }}" media="only screen">
+	<link rel="stylesheet" href="{{ "/c/fonts.css" | prepend: site.baseurl }}" media="only screen" async>
+	<!--[if lte IE 8]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+	<!-- Open Graph -->
+	<meta property="og:site_name" content="{{ site.title }}">
+	<meta property="og:title" content="{{ site.title }}: {{ site.subtitle }}">
+	<meta property="og:url" content="{{ site.url }}">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="{{ site.description }}">
+	<meta property="og:image" content="{{ site.image }}">
+	
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:creator" content="AaronGustafson">
+	<meta name="twitter:title" content="{{ site.title }}: {{ site.subtitle }}">
+	<meta name="twitter:description" content="{{ site.description }}">
+	<meta name="twitter:image:src" content="{{ site.image }}">
+	<meta name="twitter:image:width" content="320px">
+	<meta name="twitter:image:height" content="495px">
+	<meta name="twitter:domain" content="{{ site.url }}">
+			        
+	<!-- Facebook -->
+	<meta property="fb:admins" content="100002880350996"/>
+
+	<!-- Google Plus -->
+	<meta itemprop="image" content="{{ site.image }}"/>
+
+	<!-- Icons! -->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/png">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+</head>

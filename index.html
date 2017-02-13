@@ -1,36 +1,36 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: default
+title: Switching from Mac to Windows?
+description: Here are some resources that should help you get started.
 ---
 
-<h1>Switching from Mac to Windows?</h1>
+{% assign tags = site.data.tags | sort:'title' %}
 
-<p>Here are some resources that should help you get started.</p>
-
-{% for tag in site.data.tags | sort:"title" %}
-	{% assign resources = site.data.resources | by_tag:{{ tag.slug }} %}
-
+{% for tag in tags %}
+	
+	{% assign resources = site.data.resources | by_tag:tag.slug | sort:'image' | reverse %}
 	{% if resources.size > 0 %}
-		<section id="{{ tag.slug }}">
-			<h2>{{ tag.title }}</h2>
-		
-			{% for resource in resources %}
-				{% if forloop.first == true %}
-					<ul>
-				{% endif %}
-				<li>
-					<h3><a href="{{ resource.url }}">{{ resource.title }}</a></h3>
+
+		<section id="{{ tag.slug }}" class="section section--{{ tag.slug }}">
+			<h2 class="section__title">{{ tag.title }}</h2>
+			<ul>
+				{% for resource in resources limit:site.post_teaser_limit %}
+				<li class="resource resource--{{ forloop.index0 }}">
+					<h3 class="resource__title"><a href="{{ resource.url }}">{{ resource.title }}</a></h3>
 					{% if resource.author %}
 						<b class="resource__byline">by {{ resource.author }}</b>
 					{% endif %}
-					<p>{{ resource.description | truncatewords: 20 }}</p>
+					<p class="resource__description">{{ resource.description | truncatewords: 20 }}</p>
 				</li>
-				{% if forloop.last == true %}
-					</ul>
-				{% endif %}
-			{% endfor %}
+				{% endfor %}
+			</ul>	
+
+			{% if resources.size > site.post_teaser_limit %}
+				<p class="section__more"><a href="/{{ tag.slug }}">More {{ tag.title | lowercase }}</a></p>
+			{% endif %}
+
 		</section>
+
 	{% endif %}
+
 {% endfor %}

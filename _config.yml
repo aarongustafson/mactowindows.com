@@ -28,3 +28,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Site Config
+post_teaser_limit: 5

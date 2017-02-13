@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" id="mactowindows_com">
+	
+	{% include head.html %}
+	
+	<body class="page">
+
+		{% include header.html %}
+
+		<main id="main" tabindex="-1" role="main">
+			<div class="layout-container">
+	
+				<header class="page__header">
+					<h1 class="page__title">{{ page.title }}</h1>
+					<p class="page__intro">{{ page.description }}</p>
+				</header>
+
+				{{ content }}
+
+			</div>
+		</main>
+
+		{% include footer.html %}
+		{% include after.html %}
+
+	</body>
+</html>

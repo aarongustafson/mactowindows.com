@@ -1,12 +1,16 @@
 - slug: design
-  title: Design Resources
+  title: Design
 - slug: development
-  title: Development Resources
+  title: Development
 - slug: web
-  title: Web Design Resources
+  title: Web Design
 - slug: games
   title: Game Development
 - slug: devops
-  title: DevOps Resources
-- slug: general
-  title: General Resources
+  title: DevOps
+- slug: opinion
+  title: "Opinions &amp; Reactions"
+- slug: writing
+  title: Writing
+- slug: photography
+  title: Photography
