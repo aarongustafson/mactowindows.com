@@ -20,3 +20,81 @@
   description: "These four utilities can help a Mac vet feel right at home on Microsoft's platform."
   tags: [opinion]
   contributed_by: aarongustafson
+
+- title: Thinking Different
+  author: Scott Jenson
+  url: https://jenson.org/moving-to-windows/
+  description: "User Experience expert Scott Jenson on his decision to plunge into the world of Windows."
+  tags: [opinion]
+  contributed_by: aarongustafson
+
+- title: "Paradise Lost: My Mac2Win journey"
+  author: Scott Jenson
+  url: https://jenson.org/paradise-lost/
+  description: "Scott Jenson discusses the good, the bad, and the ugly exeriences he’s had (so far) in switching from Mac to Windows."
+  tags: [opinion]
+  contributed_by: aarongustafson
+
+- title: "Trackpads? Are you serious?"
+  author: Scott Jenson
+  url: https://jenson.org/trackpads/
+  description: "Scott Jenson discovers that not all trackpads are created equal."
+  tags: [opinion]
+  contributed_by: aarongustafson
+
+- title: Running into Windows
+  author: Jonathan Snook
+  url: https://snook.ca/archives/other/running-into-windows
+  description: "Web Designer/Developer Jonathan Snook discusses his move from Mac to Windows, includign his initial impressions of Windows 10 and Microsoft’s Surface Book."
+  tags: [opinion]
+  contributed_by: aarongustafson
+
+- title: Opening Windows
+  author: Daniel Mall
+  url: http://danielmall.com/articles/opening-windows/
+  image: http://mactowindows.com/i/r/opening-windows.jpg
+  description: "Designer Dan Mall discusses his decision to try a move from Mac to Windows and some of his concerns/trepidation."
+  tags: [design,opinion]
+  contributed_by: aarongustafson
+
+- title: Setting Up Windows
+  author: Daniel Mall
+  url: http://danielmall.com/articles/setting-up-windows/
+  description: "Designer Dan Mall discusses getting himself set up on Windows."
+  tags: [design,opinion]
+  contributed_by: aarongustafson
+
+- title: Developing on Windows
+  author: Dave Rupert
+  url: http://daverupert.com/2015/08/developing-on-windows/
+  description: "Developer Dave Rupert discusses his development setup."
+  tags: [development,opinion]
+  contributed_by: aarongustafson
+
+- title: Windows Editors and Shells
+  author: Dave Rupert
+  url: http://daverupert.com/2015/10/windows-editors-and-shells/
+  description: "Developer Dave Rupert updates his development environment."
+  tags: [development,web]
+  contributed_by: aarongustafson
+
+- title: Jekyll on Bash on Ubuntu on Windows
+  author: Dave Rupert
+  url: http://daverupert.com/2016/04/jekyll-on-windows-with-bash/
+  description: "Dave gets a staple of web dev up and running."
+  tags: [development,web]
+  contributed_by: aarongustafson
+
+- title: Ruby on Rails on Bash on Ubuntu on Windows
+  author: Dave Rupert
+  url: http://daverupert.com/2016/06/ruby-on-rails-on-bash-on-ubuntu-on-windows/
+  description: "Developing in Rails on Windows used to be difficult. Thanks to Bash on Windows, that’s no longer the case."
+  tags: [development,web]
+  contributed_by: aarongustafson
+
+- title: "The #davegoeswindows Finale"
+  author: Dave Rupert
+  url: http://daverupert.com/2016/07/davegoeswindows-finale/
+  description: "After a year exploring Windows as his primary OS, Dave decided to make the relationship official."
+  tags: [development,web,opinion]
+  contributed_by: aarongustafson
