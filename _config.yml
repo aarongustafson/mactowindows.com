@@ -26,6 +26,7 @@ theme: minima
 gems:
   - jekyll-feed
   - jekyll-filter-by_tag
+  - jekyll-generator-section_from_site_tags
 exclude:
   - Gemfile
   - Gemfile.lock

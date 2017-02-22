@@ -197,12 +197,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (= 123)
-  jekyll (= 3.3.1)
+  github-pages
   jekyll-feed (~> 0.6)
   jekyll-filter-by_tag (~> 0.2)
   jekyll-generator-section_from_site_tags (~> 0.1)
-  minima (~> 2.0)
 
 RUBY VERSION
    ruby 2.3.1p112
