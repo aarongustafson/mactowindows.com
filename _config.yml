@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mactowindows.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
+error_mode: :strict
 markdown: kramdown
 theme: minima
 gems:
