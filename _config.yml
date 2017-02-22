@@ -35,8 +35,8 @@ exclude:
   - LICENSE
   - package.json
   - node_modules
-  - CNAME
   - gulpfile.js
+  - README.md
 
 # Site Config
 post_teaser_limit: 5

@@ -9,4 +9,4 @@ end
 ############################
 # Custom in ./tasks/rake/  #
 ############################
-Dir.glob('tasks/rake/*.rake').each { |r| load r}
+Dir.glob('_tasks/rake/*.rake').each { |r| load r}
