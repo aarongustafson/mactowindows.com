@@ -1,0 +1,133 @@
+[
+
+	{
+		"title":       "Mac-like Special Characters in Windows",
+		"author":      "Aaron Gustafson",
+		"image":       "https://mactowindows.com",
+		"url":         "https://www.aaron-gustafson.com/notebook/mac-like-special-characters-in-windows/",
+		"description": "<p>For nearly a decade, Aaron has been writing and developing on a Mac and he absolutely loves how much easier it is to use special characters. Here’s how he made it a reality in Windows 10.</p>
+",
+		"tags":        ["design","development","web","writing"]
+	},
+
+	{
+		"title":       "The best apps to get when switching from Mac to Windows",
+		"author":      "Mark Linsangan",
+		"image":       "https://mactowindows.comhttps://cdn0.vox-cdn.com/thumbor/lLTjrJggmDxlOWAWCtVJx1wV_JI=/0x0:2039x1359/920x613/filters:focal(0x0:2039x1359):format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/50294073/mswindows2_2040.0.0.jpg",
+		"url":         "http://www.theverge.com/circuitbreaker/2016/8/4/12347032/switch-mac-to-windows-apps-utilities",
+		"description": "<p>These four utilities can help a Mac vet feel right at home on Microsoft’s platform.</p>
+",
+		"tags":        ["opinion"]
+	},
+
+	{
+		"title":       "Thinking Different",
+		"author":      "Scott Jenson",
+		"image":       "https://mactowindows.com",
+		"url":         "https://jenson.org/moving-to-windows/",
+		"description": "<p>User Experience expert Scott Jenson on his decision to plunge into the world of Windows.</p>
+",
+		"tags":        ["opinion"]
+	},
+
+	{
+		"title":       "Paradise Lost: My Mac2Win journey",
+		"author":      "Scott Jenson",
+		"image":       "https://mactowindows.com",
+		"url":         "https://jenson.org/paradise-lost/",
+		"description": "<p>Scott Jenson discusses the good, the bad, and the ugly exeriences he’s had (so far) in switching from Mac to Windows.</p>
+",
+		"tags":        ["opinion"]
+	},
+
+	{
+		"title":       "Trackpads? Are you serious?",
+		"author":      "Scott Jenson",
+		"image":       "https://mactowindows.com",
+		"url":         "https://jenson.org/trackpads/",
+		"description": "<p>Scott Jenson discovers that not all trackpads are created equal.</p>
+",
+		"tags":        ["opinion"]
+	},
+
+	{
+		"title":       "Running into Windows",
+		"author":      "Jonathan Snook",
+		"image":       "https://mactowindows.com",
+		"url":         "https://snook.ca/archives/other/running-into-windows",
+		"description": "<p>Web Designer/Developer Jonathan Snook discusses his move from Mac to Windows, includign his initial impressions of Windows 10 and Microsoft’s Surface Book.</p>
+",
+		"tags":        ["opinion"]
+	},
+
+	{
+		"title":       "Opening Windows",
+		"author":      "Daniel Mall",
+		"image":       "https://mactowindows.comhttp://mactowindows.com/i/r/opening-windows.jpg",
+		"url":         "http://danielmall.com/articles/opening-windows/",
+		"description": "<p>Designer Dan Mall discusses his decision to try a move from Mac to Windows and some of his concerns/trepidation.</p>
+",
+		"tags":        ["design","opinion"]
+	},
+
+	{
+		"title":       "Setting Up Windows",
+		"author":      "Daniel Mall",
+		"image":       "https://mactowindows.com",
+		"url":         "http://danielmall.com/articles/setting-up-windows/",
+		"description": "<p>Designer Dan Mall discusses getting himself set up on Windows.</p>
+",
+		"tags":        ["design","opinion"]
+	},
+
+	{
+		"title":       "Developing on Windows",
+		"author":      "Dave Rupert",
+		"image":       "https://mactowindows.com",
+		"url":         "http://daverupert.com/2015/08/developing-on-windows/",
+		"description": "<p>Developer Dave Rupert discusses his development setup.</p>
+",
+		"tags":        ["development","opinion"]
+	},
+
+	{
+		"title":       "Windows Editors and Shells",
+		"author":      "Dave Rupert",
+		"image":       "https://mactowindows.com",
+		"url":         "http://daverupert.com/2015/10/windows-editors-and-shells/",
+		"description": "<p>Developer Dave Rupert updates his development environment.</p>
+",
+		"tags":        ["development","web"]
+	},
+
+	{
+		"title":       "Jekyll on Bash on Ubuntu on Windows",
+		"author":      "Dave Rupert",
+		"image":       "https://mactowindows.com",
+		"url":         "http://daverupert.com/2016/04/jekyll-on-windows-with-bash/",
+		"description": "<p>Dave gets a staple of web dev up and running.</p>
+",
+		"tags":        ["development","web"]
+	},
+
+	{
+		"title":       "Ruby on Rails on Bash on Ubuntu on Windows",
+		"author":      "Dave Rupert",
+		"image":       "https://mactowindows.com",
+		"url":         "http://daverupert.com/2016/06/ruby-on-rails-on-bash-on-ubuntu-on-windows/",
+		"description": "<p>Developing in Rails on Windows used to be difficult. Thanks to Bash on Windows, that’s no longer the case.</p>
+",
+		"tags":        ["development","web"]
+	},
+
+	{
+		"title":       "The #davegoeswindows Finale",
+		"author":      "Dave Rupert",
+		"image":       "https://mactowindows.com",
+		"url":         "http://daverupert.com/2016/07/davegoeswindows-finale/",
+		"description": "<p>After a year exploring Windows as his primary OS, Dave decided to make the relationship official.</p>
+",
+		"tags":        ["development","web","opinion"]
+	}
+
+]

@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/*------------------------------------*    Main CSS
+\*------------------------------------*/
+/*------------------------------------*    $VENDORS
+	Other people’s code
+\*------------------------------------*/
+/*------------------------------------*    $HELPERS
+	SASS Tools
+\*------------------------------------*/
+/*------------------------------------*    Configuration
+\*------------------------------------*/
+/*	Debug controls
+	========================================================================== */
+/*	Legacy support
+	========================================================================== */
+/*	Browser defaults
+	========================================================================== */
+/*------------------------------------*    Functions
+\*------------------------------------*/
+/*------------------------------------*    Variables
+\*------------------------------------*/
+/*	URLs
+	========================================================================== */
+/*	Breakpoint Management
+	========================================================================== */
+/*	Grid Management
+	========================================================================== */
+/*	Typography
+	========================================================================== */
+/*	Colors
+	========================================================================== */
+/*	Images
+	========================================================================== */
+/*	Defaults
+	========================================================================== */
+/*	Other Config
+	========================================================================== */
+/*------------------------------------*    Mixins
+\*------------------------------------*/
+/*------------------------------------*    Placeholders
+\*------------------------------------*/
+/*------------------------------------*    $BASE
+	Global element styles
+\*------------------------------------*/
+/*------------------------------------*    Body-level settings
+\*------------------------------------*/
+/*------------------------------------*    Heading Levels
+\*------------------------------------*/
+/*------------------------------------*    Block-level Semantics
+\*------------------------------------*/
+/*------------------------------------*    Lists
+\*------------------------------------*/
+@media (min-width: 60em) {
+  ol,
+  ul {
+    margin-left: 0; }
+    ol ol,
+    ol ul,
+    ul ol,
+    ul ul {
+      margin-top: 0;
+      margin-left: 1.375rem; } }
+
+/*------------------------------------*    Links
+\*------------------------------------*/
+/*------------------------------------*    Text-level semantics
+\*------------------------------------*/
+/*------------------------------------*    Media Elements
+\*------------------------------------*/
+/*------------------------------------*    $COMPONENTS
+	Interface patterns
+\*------------------------------------*/
+/*------------------------------------*    Header
+\*------------------------------------*/
+@media (min-width: 30em) {
+  .site-title {
+    font-size: 2rem; }
+    .site-title:before {
+      width: 67px;
+      height: 67px; } }
+
+@media (min-width: 40em) {
+  .banner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center; } }
+
+@media (min-width: 60em) {
+  .banner {
+    margin: 0 auto;
+    width: 60rem; } }
+
+/*------------------------------------*    Main
+\*------------------------------------*/
+@media (min-width: 20em) {
+  main {
+    padding: 0 1.375rem; } }
+
+@media (min-width: 40em) {
+  .split {
+    padding: 0 2.5em 0 1.375rem;
+    padding: 0 calc(100% - 37.5rem) 0 1.375rem;
+    position: relative; } }
+
+@media (min-width: 60em) {
+  main {
+    padding: 0;
+    max-width: 60rem; }
+  .split {
+    padding-left: 0;
+    padding-right: 22.5em;
+    padding-right: calc(60rem - 37.5rem); } }
+
+/*------------------------------------*    Footer
+\*------------------------------------*/
+@media (min-width: 40em) {
+  footer {
+    margin-top: 2.75rem; } }
+
+@media (min-width: 60em) {
+  footer {
+    padding: 1.375rem calc( ( 100% - 60rem ) / 2); } }
+
+/*------------------------------------*    $PAGES
+	Page-specific styles
+	(use sparingly)
+\*------------------------------------*/
+/*------------------------------------*    Homepage
+\*------------------------------------*/
+@media (min-width: 30em) {
+  .home #judges .gallery {
+    max-width: 40.3125rem; } }
+
+@media (min-width: 48.75em) {
+  .home #rules {
+    float: right;
+    margin-top: -2.8875rem;
+    width: calc( 50% - 0.6875rem); }
+  .home #prizes {
+    float: left;
+    width: calc( 50% - 0.6875rem); }
+    .home #prizes h2 {
+      clear: none; }
+    .home #prizes h3 {
+      color: #c03e1c;
+      font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+      font-weight: bold;
+      text-align: center; }
+      .home #prizes h3 b {
+        font-weight: normal;
+        font-size: 1rem;
+        display: block; }
+  .home #gallery,
+  .home #judges {
+    clear: both;
+    padding-top: 0.6875rem; } }
+
+@media (min-width: 60em) {
+  .home #judges {
+    padding-top: 2.0625rem; }
+    .home #judges .gallery {
+      max-width: 100%; }
+  .home #gallery,
+  .home #notable {
+    padding-top: 2.0625rem; }
+    .home #gallery + #judges,
+    .home #notable + #judges {
+      padding-top: 0; } }
