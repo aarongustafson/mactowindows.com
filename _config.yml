@@ -29,6 +29,12 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
+  - LICENSE
+  - package.json
+  - node_modules
+  - CNAME
+  - gulpfile.js
 
 # Site Config
 post_teaser_limit: 5
