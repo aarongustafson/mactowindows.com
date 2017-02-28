@@ -1,3 +1,6 @@
+#- slug: url-friendly-name
+#  title: "The text you want to use for the actual tag"
+
 - slug: design
   title: Design
 - slug: development
@@ -16,3 +19,5 @@
   title: Photography
 - slug: productivity
   title: Productivity
+- slug: utilities
+  title: Utilities

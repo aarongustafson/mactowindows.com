@@ -6,6 +6,11 @@
 
     .resource-list {
         list-style: none;
+
+        &__item {
+            margin-top: $default-spacing-fallback;
+            margin-top: $default-spacing;
+        }
     }
    
 }

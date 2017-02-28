@@ -12,7 +12,7 @@ gulp.task('css', function() {
     
     var paths = {
         srcPath:     './_source/scss/**/*.scss',
-        destPath:    './_site/c',
+        destPath:    './c',
         importsPath: './_source/scss/'
     };
 

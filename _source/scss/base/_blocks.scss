@@ -15,8 +15,8 @@
     }
 
     section {
-        margin-top: $default-spacing-fallback * 2; // no rem
-        margin-top: $default-spacing * 2; // rem
+        margin-top: #{$default-spacing-fallback * 2}; // no rem
+        margin-top: #{$default-spacing * 2}; // rem
     }
 
     hr {

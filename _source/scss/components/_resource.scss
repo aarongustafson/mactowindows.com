@@ -4,8 +4,12 @@
 
 @include breakup-breakpoint( "global" ) {
 
-    .resource__description {
-        margin-top: 0;
+    .resource {
+
+        &__description {
+            margin-top: 0;
+        }
+        
     }
    
 }

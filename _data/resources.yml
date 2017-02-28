@@ -4,7 +4,7 @@
 #  url: Link to?
 #  description: "Markdown is supported here"
 #  tags: Array of tags, e.g. [design,development] or * (see tags.yml)
-#  contributed_by: Your GitHub username
+#  contributed_by: Your *GitHub* username
 
 - title: Mac-like Special Characters in Windows
   author: Aaron Gustafson
@@ -99,9 +99,9 @@
   tags: [development,web,opinion]
   contributed_by: aarongustafson
 
-  - title: "TidyTabs - Tabify ALL the windows!"
-  author: Daniel Buchner
+- title: "TidyTabs"
+  author: Nurgo Software
   url: http://www.nurgo-software.com/products/tidytabs
   description: "TidyTabs is paid utility that allows you to add tabbed window-grouping UI that can be customized for each app."
-  tags: [productivity]
+  tags: [productivity,utilities]
   contributed_by: csuwildcat

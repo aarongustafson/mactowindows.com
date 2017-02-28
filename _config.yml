@@ -23,7 +23,9 @@ url: "https://mactowindows.com" # the base hostname & protocol for your site, e.
 # Build settings
 error_mode: :strict
 markdown: kramdown
-theme: minima
+sass:
+    sass_dir: _source/scss
+    style: compressed
 gems:
   - jekyll-feed
   - jekyll-filter-by_tag
