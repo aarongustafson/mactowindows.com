@@ -93,7 +93,7 @@ html {
 
 body {
   background: #0E0E0E;
-  color: #EDEDED;
+  color: #ebebeb;
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   word-wrap: break-word;
@@ -124,9 +124,7 @@ h1 {
   font-size: 3rem; }
 
 h2 {
-  font-size: 2rem;
-  border-top: 3px solid;
-  padding-top: 0.6875rem; }
+  font-size: 2rem; }
 
 h3 {
   font-size: 1.5rem; }
@@ -141,6 +139,10 @@ h3 {
 * + * {
   margin-top: 22px;
   margin-top: 1.375rem; }
+
+section {
+  margin-top: 44px;
+  margin-top: 2.75rem; }
 
 hr {
   border: none;
@@ -187,27 +189,27 @@ ol ol {
 a {
   text-decoration: none; }
   a:link, a:visited {
-    color: #D6451F;
+    color: #3eb5ef;
     border-bottom: 1px dotted;
-    border-bottom-color: rgba(214, 69, 31, 0.25);
+    border-bottom-color: rgba(62, 181, 239, 0.25);
     cursor: pointer;
     transition: all 0.25s ease; }
   a:hover, a:focus, a:active {
-    color: #D10E00;
-    border-bottom-color: #D10E00; }
+    color: #6dc7f3;
+    border-bottom-color: #6dc7f3; }
   a[href^=mailto], a[href^=tel] {
     white-space: nowrap; }
 
 .clickable {
   cursor: pointer; }
 
-#akapart :focus {
-  outline: 3px solid #000;
-  box-shadow: inset 0px 0px 0px 1px #fff; }
+#mactowindows_com :focus {
+  outline: 3px solid #ebebeb;
+  box-shadow: inset 0px 0px 0px 1px #0E0E0E; }
   @media (-ms-high-contrast: white-on-black) {
-    #akapart :focus {
+    #mactowindows_com :focus {
       outline: 3px solid #F3AF1D;
-      box-shadow: inset 0px 0px 0px 1px #000; } }
+      box-shadow: inset 0px 0px 0px 1px #0E0E0E; } }
 
 /*------------------------------------*    Text-level semantics
 \*------------------------------------*/
@@ -252,26 +254,39 @@ picture {
 /*------------------------------------*    Header
 \*------------------------------------*/
 .banner {
+  background: #060606;
   position: relative;
   margin-bottom: 1.375rem; }
 
 .logo {
   background: #0E0E0E;
-  color: #EDEDED; }
+  color: #ebebeb; }
   .logo * + * {
     margin: 0; }
 
-.site-title {
-  font-size: 2rem;
+.banner__title {
+  font-size: 3rem;
   font-weight: normal;
-  letter-spacing: 0.1em;
+  letter-spacing: -0.02em;
   text-align: center;
   white-space: nowrap; }
-  .site-title a {
+  .banner__title a {
     border: 0;
     display: block;
     padding: .5em;
+    color: #ebebeb;
     transition: none; }
+    .banner__title a:before {
+      background: url(/i/logo.png) no-repeat;
+      background-size: contain;
+      content: '';
+      display: inline-block;
+      width: 2em;
+      height: 2em;
+      margin-right: .5em;
+      vertical-align: middle;
+      position: relative;
+      margin-top: -.1em; }
 
 /*------------------------------------*    Main
 \*------------------------------------*/
@@ -281,14 +296,14 @@ main {
       flex-grow: 1;
   padding: 0 .5em;
   margin: 1.375rem auto 0; }
-  main:focus {
+  #mactowindows_com main:focus {
     outline-width: 0; }
 
 /*------------------------------------*    Footer
 \*------------------------------------*/
 footer {
   background: #060606;
-  color: #EDEDED;
+  color: #ebebeb;
   text-align: center;
   margin-top: 1.375rem;
   padding: 1.375rem;
@@ -302,15 +317,26 @@ footer {
     font-size: 0.875rem; }
   footer a:link,
   footer a:visited {
-    color: #EDEDED;
-    border-color: #EDEDED;
+    color: #ebebeb;
+    border-color: #ebebeb;
     white-space: nowrap; }
   footer a, footer br {
     margin-top: 0; }
 
+/*------------------------------------*    Resource
+\*------------------------------------*/
+.resource-list {
+  list-style: none; }
+  .resource-list__item {
+    margin-top: 22px;
+    margin-top: 1.375rem; }
+
+/*------------------------------------*    Resource
+\*------------------------------------*/
+.resource__description {
+  margin-top: 0; }
+
 /*------------------------------------*    $PAGES
 	Page-specific styles
 	(use sparingly)
-\*------------------------------------*/
-/*------------------------------------*    Homepage
 \*------------------------------------*/
