@@ -128,6 +128,16 @@
 		"description": "<p>After a year exploring Windows as his primary OS, Dave decided to make the relationship official.</p>
 ",
 		"tags":        ["development","web","opinion"]
+	},
+
+	{
+		"title":       "TidyTabs",
+		"author":      "Nurgo Software",
+		"image":       "https://mactowindows.com",
+		"url":         "http://www.nurgo-software.com/products/tidytabs",
+		"description": "<p>TidyTabs is paid utility that allows you to add tabbed window-grouping UI that can be customized for each app.</p>
+",
+		"tags":        ["productivity","utilities"]
 	}
 
 ]
