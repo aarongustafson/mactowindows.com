@@ -98,3 +98,10 @@
   description: "After a year exploring Windows as his primary OS, Dave decided to make the relationship official."
   tags: [development,web,opinion]
   contributed_by: aarongustafson
+
+  - title: "TidyTabs - Tabify ALL the windows!"
+  author: Daniel Buchner
+  url: http://www.nurgo-software.com/products/tidytabs
+  description: "TidyTabs is paid utility that allows you to add tabbed window-grouping UI that can be customized for each app."
+  tags: [productivity]
+  contributed_by: csuwildcat
