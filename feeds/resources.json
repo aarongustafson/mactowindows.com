@@ -9,7 +9,7 @@ layout: nil
 		"author":      "{{ resource.author }}",
 		"image":       "{{ resource.image | prepend: site.baseurl | prepend: site.url }}",
 		"url":         "{{ resource.url }}",
-		"description": "{{ resource.description | markdownify }}",
+		"description": "{{ resource.description | markdownify | strip_newlines }}",
 		"tags":        [{% for tag in resource.tags %}"{{ tag }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}]
 	}{% if forloop.last %}{% else %},{% endif %}
 {% endfor %}
