@@ -45,7 +45,7 @@
 - title: Running into Windows
   author: Jonathan Snook
   url: https://snook.ca/archives/other/running-into-windows
-  description: "Web Designer/Developer Jonathan Snook discusses his move from Mac to Windows, includign his initial impressions of Windows 10 and Microsoft’s Surface Book."
+  description: "Web Designer/Developer Jonathan Snook discusses his move from Mac to Windows, including his initial impressions of Windows 10 and Microsoft’s Surface Book."
   tags: [opinion]
   contributed_by: aarongustafson
 
@@ -105,3 +105,87 @@
   description: "TidyTabs is paid utility that allows you to add tabbed window-grouping UI that can be customized for each app."
   tags: [productivity,utilities]
   contributed_by: csuwildcat
+
+- title: The Microsoft Surface Book - Part One
+  author: Raymond Camden
+  url: https://www.raymondcamden.com/2016/09/26/the-microsoft-surface-book-part-one
+  description: "Raymond got a Surface Book from Microsoft to give it and Windows 10 a try. You can read all about his experiences so far in a series of articles. This is Part One."
+  tags: [opinion]
+  contributed_by: martinwolf
+
+- title: The Microsoft Surface Book - Part Two
+  author: Raymond Camden
+  url: https://www.raymondcamden.com/2016/10/03/the-microsoft-surface-book-part-two
+  description: "Raymond got a Surface Book from Microsoft to give it and Windows 10 a try. You can read all about his experiences so far in a series of articles. This is Part Two."
+  tags: [opinion]
+  contributed_by: martinwolf
+
+- title: The Microsoft Surface Book - Part Three
+  author: Raymond Camden
+  url: https://www.raymondcamden.com/2016/10/16/the-microsoft-surface-book-part-three
+  description: "Raymond got a Surface Book from Microsoft to give it and Windows 10 a try. You can read all about his experiences so far in a series of articles. This is Part Three."
+  tags: [opinion]
+  contributed_by: martinwolf
+
+- title: Final(ish) Thoughts on the Microsoft Surface (as well as Apple)
+  author: Raymond Camden
+  url: https://www.raymondcamden.com/2016/10/28/finalish-thoughts-on-the-microsoft-surface-as-well-as-apple
+  description: "Raymond Camden wraps up his series about his switch from Mac to Windows. He also talks about how Microsoft and Apple have changed over the last few years."
+  tags: [opinion]
+  contributed_by: martinwolf
+
+- title: Welp, I did it.
+  author: Blake Winton
+  url: https://weblog.latte.ca/blake/tech/windows/Welp.html
+  description: "Blake Winton ordered a Dell XPS 15 and talks about the Windows software he is planning to use."
+  tags: [productivity, utilities]
+  contributed_by: martinwolf
+
+- title: It’s here!
+  author: Blake Winton
+  url: https://weblog.latte.ca/blake/tech/windows/weekone.html
+  description: "Blake Winton talks about his first impressions of setting things up in Windows 10 on his new Dell XPS 15."
+  tags: [opinion]
+  contributed_by: martinwolf
+
+- title: A few weeks in…
+  author: Blake Winton
+  url: https://weblog.latte.ca/blake/tech/windows/monthone.html
+  description: "Status report by Blake Winton after using and developing on Windows 10 with the Dell XPS 15."
+  tags: [opinion]
+  contributed_by: martinwolf
+
+- title: Can Windows Replace Your Macbook for Dev? Yes! And it’s quite nice.
+  author: Travis Reeder
+  url: https://medium.com/travis-on-development/can-windows-replace-your-macbook-for-dev-yes-and-its-quite-nice-a365eb17c9a5#.x5392aoy0
+  description: "What and how to install all you need to develop on Windows 10."
+  tags: [development]
+  contributed_by: martinwolf
+
+- title: Setup Windows 10 for Modern/Hipster Development
+  author: Felix Rieseberg
+  url: https://github.com/felixrieseberg/windows-development-environment
+  description: "Turning Windows into an environment ready for modern development"
+  tags: [development]
+  contributed_by: martinwolf
+
+- title: "Setup Bash on Windows: My Environment Configuration"
+  author: Ryan Lanciaux
+  url: http://ryanlanciaux.com/blog/2016/11/17/setup-bash-on-windows-my-environment-configuration/
+  description: "The steps to take to install and configure Bash on Windows to closely resemble a Linux/Mac setting for JavaScript and node development"
+  tags: [development]
+  contributed_by: martinwolf
+
+- title: How to install and run (Oh-My-) zsh on Windows
+  author: Sebastian Gingter
+  url: https://gingter.org/2016/08/17/install-and-run-zsh-on-windows/
+  description: "Bash on Windows is great thanks to the WSL. If you like (Oh-My-) zsh, this is for you."
+  tags: [development]
+  contributed_by: martinwolf
+
+- title: Running Windows 10 Ubuntu Bash in Cmder
+  author: Sebastian Gingter
+  url: https://gingter.org/2016/11/16/running-windows-10-ubuntu-bash-in-cmder/
+  description: "Cmder is a popular console emulator for Windows and you can run the WSL bash in it."
+  tags: [development]
+  contributed_by: martinwolf
