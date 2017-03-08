@@ -124,6 +124,15 @@
 		"url":         "http://www.nurgo-software.com/products/tidytabs",
 		"description": "<p>TidyTabs is paid utility that allows you to add tabbed window-grouping UI that can be customized for each app.</p>",
 		"tags":        ["productivity","utilities"]
+	},
+
+	{
+		"title":       "Can I Subsystem It?",
+		"author":      "Dave Rupert",
+		"image":       "https://mactowindows.com",
+		"url":         "https://github.com/davatron5000/can-i-subsystem-it",
+		"description": "<p>This is an excellent list of web development dependencies and their support on the Windows Subsystem for Linux.</p>",
+		"tags":        ["development","web"]
 	}
 
 ]
