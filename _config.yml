@@ -39,6 +39,7 @@ exclude:
   - node_modules
   - gulpfile.js
   - README.md
+  - Rakefile
 
 # Site Config
 post_teaser_limit: 5
