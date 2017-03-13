@@ -263,6 +263,37 @@
 		"url":         "https://hacks.mozilla.org/2013/09/getting-started-with-html5-game-development/",
 		"description": "<p>How “HTML5” can be better than native, where to start with the development process, where to go when you’re stuck, and how to monetize and distribute games.</p>",
 		"tags":        ["games","web"]
+	},
+
+	{
+		"title":       "Building a Scalable Online Game with Azure - Part 1",
+		"author":      "Nick Pruehs",
+		
+		"url":         "http://www.gamasutra.com/blogs/NickPruehs/20170214/291318/Building_a_Scalable_Online_Game_with_Azure__Part_1.php",
+		"description": "<p>Nick walks us through the basics of getting a gaming backend up and running in the cloud.</p>",
+		"tags":        ["games","devops"]
+	},
+
+	{
+		"title":       "Building a Scalable Online Game with Azure - Part 2",
+		"author":      "Nick Pruehs",
+		
+		"image":       "http://www.gamasutra.com/db_area/images/blog/npruehs/Backend%20Architecture%203.png",
+		
+		"url":         "http://www.gamasutra.com/blogs/NickPruehs/20170221/291694/Building_a_Scalable_Online_Game_with_Azure__Part_2.php",
+		"description": "<p>Nick shows us how to a web service that acts as interface between the frontend and the actual backend services.</p>",
+		"tags":        ["games","devops"]
+	},
+
+	{
+		"title":       "Building a Scalable Online Game with Azure - Part 3",
+		"author":      "Nick Pruehs",
+		
+		"image":       "http://www.gamasutra.com/db_area/images/blog/292955/Backend%20Architecture%205.png",
+		
+		"url":         "http://www.gamasutra.com/blogs/NickPruehs/20170305/292955/Building_a_Scalable_Online_Game_with_Azure__Part_3.php",
+		"description": "<p>Nick teaches us how to persist state in a scalable database.</p>",
+		"tags":        ["games","devops"]
 	}
 
 ]
