@@ -52,7 +52,7 @@
 		"author":      "Jonathan Snook",
 		
 		"url":         "https://snook.ca/archives/other/running-into-windows",
-		"description": "<p>Web Designer/Developer Jonathan Snook discusses his move from Mac to Windows, includign his initial impressions of Windows 10 and Microsoft’s Surface Book.</p>",
+		"description": "<p>Web Designer/Developer Jonathan Snook discusses his move from Mac to Windows, including his initial impressions of Windows 10 and Microsoft’s Surface Book.</p>",
 		"tags":        ["opinion"]
 	},
 
@@ -128,6 +128,114 @@
 		"url":         "http://www.nurgo-software.com/products/tidytabs",
 		"description": "<p>TidyTabs is paid utility that allows you to add tabbed window-grouping UI that can be customized for each app.</p>",
 		"tags":        ["productivity","utilities"]
+	},
+
+	{
+		"title":       "The Microsoft Surface Book - Part One",
+		"author":      "Raymond Camden",
+		
+		"url":         "https://www.raymondcamden.com/2016/09/26/the-microsoft-surface-book-part-one",
+		"description": "<p>Raymond got a Surface Book from Microsoft to give it and Windows 10 a try. You can read all about his experiences so far in a series of articles. This is Part One.</p>",
+		"tags":        ["opinion"]
+	},
+
+	{
+		"title":       "The Microsoft Surface Book - Part Two",
+		"author":      "Raymond Camden",
+		
+		"url":         "https://www.raymondcamden.com/2016/10/03/the-microsoft-surface-book-part-two",
+		"description": "<p>Raymond got a Surface Book from Microsoft to give it and Windows 10 a try. You can read all about his experiences so far in a series of articles. This is Part Two.</p>",
+		"tags":        ["opinion"]
+	},
+
+	{
+		"title":       "The Microsoft Surface Book - Part Three",
+		"author":      "Raymond Camden",
+		
+		"url":         "https://www.raymondcamden.com/2016/10/16/the-microsoft-surface-book-part-three",
+		"description": "<p>Raymond got a Surface Book from Microsoft to give it and Windows 10 a try. You can read all about his experiences so far in a series of articles. This is Part Three.</p>",
+		"tags":        ["opinion"]
+	},
+
+	{
+		"title":       "Final(ish) Thoughts on the Microsoft Surface (as well as Apple)",
+		"author":      "Raymond Camden",
+		
+		"url":         "https://www.raymondcamden.com/2016/10/28/finalish-thoughts-on-the-microsoft-surface-as-well-as-apple",
+		"description": "<p>Raymond Camden wraps up his series about his switch from Mac to Windows. He also talks about how Microsoft and Apple have changed over the last few years.</p>",
+		"tags":        ["opinion"]
+	},
+
+	{
+		"title":       "Welp, I did it.",
+		"author":      "Blake Winton",
+		
+		"url":         "https://weblog.latte.ca/blake/tech/windows/Welp.html",
+		"description": "<p>Blake Winton ordered a Dell XPS 15 and talks about the Windows software he is planning to use.</p>",
+		"tags":        ["productivity","utilities"]
+	},
+
+	{
+		"title":       "It’s here!",
+		"author":      "Blake Winton",
+		
+		"url":         "https://weblog.latte.ca/blake/tech/windows/weekone.html",
+		"description": "<p>Blake Winton talks about his first impressions of setting things up in Windows 10 on his new Dell XPS 15.</p>",
+		"tags":        ["opinion"]
+	},
+
+	{
+		"title":       "A few weeks in…",
+		"author":      "Blake Winton",
+		
+		"url":         "https://weblog.latte.ca/blake/tech/windows/monthone.html",
+		"description": "<p>Status report by Blake Winton after using and developing on Windows 10 with the Dell XPS 15.</p>",
+		"tags":        ["opinion"]
+	},
+
+	{
+		"title":       "Can Windows Replace Your Macbook for Dev? Yes! And it’s quite nice.",
+		"author":      "Travis Reeder",
+		
+		"url":         "https://medium.com/travis-on-development/can-windows-replace-your-macbook-for-dev-yes-and-its-quite-nice-a365eb17c9a5#.x5392aoy0",
+		"description": "<p>What and how to install all you need to develop on Windows 10.</p>",
+		"tags":        ["development"]
+	},
+
+	{
+		"title":       "Setup Windows 10 for Modern/Hipster Development",
+		"author":      "Felix Rieseberg",
+		
+		"url":         "https://github.com/felixrieseberg/windows-development-environment",
+		"description": "<p>Turning Windows into an environment ready for modern development</p>",
+		"tags":        ["development"]
+	},
+
+	{
+		"title":       "Setup Bash on Windows: My Environment Configuration",
+		"author":      "Ryan Lanciaux",
+		
+		"url":         "http://ryanlanciaux.com/blog/2016/11/17/setup-bash-on-windows-my-environment-configuration/",
+		"description": "<p>The steps to take to install and configure Bash on Windows to closely resemble a Linux/Mac setting for JavaScript and node development</p>",
+		"tags":        ["development"]
+	},
+
+	{
+		"title":       "How to install and run (Oh-My-) zsh on Windows",
+		"author":      "Sebastian Gingter",
+		
+		"url":         "https://gingter.org/2016/08/17/install-and-run-zsh-on-windows/",
+		"description": "<p>Bash on Windows is great thanks to the WSL. If you like (Oh-My-) zsh, this is for you.</p>",
+		"tags":        ["development"]
+	},
+
+	{
+		"title":       "Running Windows 10 Ubuntu Bash in Cmder",
+		"author":      "Sebastian Gingter",
+		
+		"url":         "https://gingter.org/2016/11/16/running-windows-10-ubuntu-bash-in-cmder/",
+		"description": "<p>Cmder is a popular console emulator for Windows and you can run the WSL bash in it.</p>",
+		"tags":        ["development"]
 	},
 
 	{
