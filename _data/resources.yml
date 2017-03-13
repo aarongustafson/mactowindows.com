@@ -105,3 +105,10 @@
   description: "TidyTabs is paid utility that allows you to add tabbed window-grouping UI that can be customized for each app."
   tags: [productivity,utilities]
   contributed_by: csuwildcat
+
+- title: "Can I Subsystem It?"
+  author: Dave Rupert
+  url: https://github.com/davatron5000/can-i-subsystem-it
+  description: "This is an excellent list of web development dependencies and their support on the Windows Subsystem for Linux."
+  tags: [development,web]
+  contributed_by: csuwildcat

@@ -7,7 +7,9 @@ layout: nil
 	{
 		"title":       "{{ resource.title }}",
 		"author":      "{{ resource.author }}",
-		"image":       "{{ resource.image | prepend: site.baseurl | prepend: site.url }}",
+		{% if resource.image %}
+		"image":       "{{ resource.image }}",
+		{% endif %}
 		"url":         "{{ resource.url }}",
 		"description": "{{ resource.description | markdownify | strip_newlines }}",
 		"tags":        [{% for tag in resource.tags %}"{{ tag }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}]
