@@ -210,3 +210,26 @@
   description: "How “HTML5” can be better than native, where to start with the development process, where to go when you’re stuck, and how to monetize and distribute games."
   tags: [games,web]
   contributed_by: aarongustafson
+
+- title: "Building a Scalable Online Game with Azure - Part 1"
+  author: Nick Pruehs
+  url: http://www.gamasutra.com/blogs/NickPruehs/20170214/291318/Building_a_Scalable_Online_Game_with_Azure__Part_1.php
+  description: "Nick walks us through the basics of getting a gaming backend up and running in the cloud."
+  tags: [games,devops]
+  contributed_by: aarongustafson
+
+- title: "Building a Scalable Online Game with Azure - Part 2"
+  author: Nick Pruehs
+  url: http://www.gamasutra.com/blogs/NickPruehs/20170221/291694/Building_a_Scalable_Online_Game_with_Azure__Part_2.php
+  image: http://www.gamasutra.com/db_area/images/blog/npruehs/Backend%20Architecture%203.png
+  description: "Nick shows us how to a web service that acts as interface between the frontend and the actual backend services."
+  tags: [games,devops]
+  contributed_by: aarongustafson
+
+- title: "Building a Scalable Online Game with Azure - Part 3"
+  author: Nick Pruehs
+  url: http://www.gamasutra.com/blogs/NickPruehs/20170305/292955/Building_a_Scalable_Online_Game_with_Azure__Part_3.php
+  image: http://www.gamasutra.com/db_area/images/blog/292955/Backend%20Architecture%205.png
+  description: "Nick teaches us how to persist state in a scalable database."
+  tags: [games,devops]
+  contributed_by: aarongustafson
