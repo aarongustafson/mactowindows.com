@@ -195,4 +195,18 @@
   url: https://github.com/davatron5000/can-i-subsystem-it
   description: "This is an excellent list of web development dependencies and their support on the Windows Subsystem for Linux."
   tags: [development,web]
-  contributed_by: csuwildcat
+  contributed_by: aarongustafson
+  
+- title: "Getting Started with Game Development"
+  author: Adam Tuliper
+  url: http://www.adamtuliper.com/2016/06/getting-started-with-game-development.html
+  description: "Adam has put together an intro Game Dev course to help us understand how to work with Unity."
+  tags: [games]
+  contributed_by: aarongustafson
+
+- title: "Getting Started With HTML5 Game Development"
+  author: Austin Hallock & Robert Nyman
+  url: https://hacks.mozilla.org/2013/09/getting-started-with-html5-game-development/
+  description: "How “HTML5” can be better than native, where to start with the development process, where to go when you’re stuck, and how to monetize and distribute games."
+  tags: [games,web]
+  contributed_by: aarongustafson
