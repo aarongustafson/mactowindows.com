@@ -233,3 +233,51 @@
   description: "Nick teaches us how to persist state in a scalable database."
   tags: [games,devops]
   contributed_by: aarongustafson
+
+- title: "Ellen Van Dusen Explores Color + Pattern with Interactive Book"
+  author: Gregory Han
+  url: http://design-milk.com/surface-experiments-ellen-van-dusen-explores-color-pattern-interactive-abc-ryb-book/
+  image: http://mactowindows.com/i/r/Ellen-Van-Dusen.jpg
+  description: "Fashion designer and artist Ellen Van Dusen explores the creative possibilities with Microsoft Surface."
+  tags: [design]
+  contributed_by: ststimac
+
+- title: "Steven Harrington: Far Outttt"
+  author: Dazed
+  url: https://www.youtube.com/watch?v=rubcrzqg92U
+  image: https://i.ytimg.com/vi/rubcrzqg92U/hqdefault.jpg
+  description: "LA based designer Steve Harrington uses Surface to bring 2D illustration & animation into 3D reality."
+  tags: [design]
+  contributed_by: ststimac
+
+- title: "The Madbury Club: Mobile Projection Unit"
+  author: coolhunting
+  url: https://www.youtube.com/watch?v=ihzM7vebOR0
+  image: https://i.ytimg.com/vi/ihzM7vebOR0/hqdefault.jpg
+  description: "Brooklyn’s multi-talented The Madbury Club collaborated with Microsoft for 'Surface Experiments’ — a new program inviting artists to experiment and realize new ideas using the Microsoft Surface."
+  tags: [design]
+  contributed_by: ststimac
+
+- title: "Art on Surface"
+  author: Microsoft
+  url: https://www.microsoft.com/surface/en-us/art
+  image: https://compass-ssl.microsoft.com/assets/19/02/19025c30-5649-4a56-8b3c-94791a301a42.jpg
+  description: "Check out the global art project that spanned 17 cities in 12 countries where, over the course of 5 weeks, local artists have created beautiful murals bringing new color to their communities."
+  tags: [design]
+  contributed_by: ststimac
+
+- title: "Penny Arcade Surface Studio Review"
+  author: Penny Arcade
+  url: https://www.penny-arcade.com/news/post/2016/10/26/the-surface-studio
+  image: https://photos.smugmug.com/photos/i-zVCpPqB/0/XL/i-zVCpPqB-XL.jpg
+  description: "Over on the Penny Arcade blog, Gabe shares his thoughts on the Microsoft Surface Studio."
+  tags: [design,opinion]
+  contributed_by: ststimac
+
+- title: "Syd Weiler demoes the Surface Studio"
+  author: Adobe
+  url: https://www.youtube.com/watch?v=zzFvgQ7SHcg
+  image: https://i.ytimg.com/vi/zzFvgQ7SHcg/hqdefault.jpg
+  description: "Adobe resident artist Syd Weiler gives a drawing demo in Photoshop CC on the Surface Studio."
+  tags: [design]
+  contributed_by: ststimac
