@@ -8,7 +8,7 @@ layout: nil
 		"title":       "{{ resource.title }}",
 		"author":      "{{ resource.author }}",
 		{% if resource.image %}
-		"image":       "{{ site.cloudinary | replace:'WIDTH',1200 }}{{ resource.image }}",
+		"image":       "{{ resource.image }}",
 		{% endif %}
 		"url":         "{{ resource.url }}",
 		"description": "{{ resource.description | markdownify | strip_newlines }}",
