@@ -1,6 +1,6 @@
 <div class="resource">
 	{% if resource.image %}
-		<div class="resource__image" data-src="{{ resource.author }}"></div>
+		<div class="resource__image" data-img="{{ site.cloudinary | replace:'WIDTH',320 }}{{ resource.image }}"></div>
 	{% endif %}
 	<h3 class="resource__title"><a href="{{ resource.url }}">{{ resource.title }}</a></h3>
 	{% if resource.author %}

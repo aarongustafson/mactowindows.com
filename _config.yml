@@ -43,3 +43,6 @@ exclude:
 
 # Site Config
 post_teaser_limit: 5
+
+# Cloudinary
+cloudinary: http://res.cloudinary.com/mactowindows/image/fetch/w_WIDTH,ar_16:9,c_lfill/
