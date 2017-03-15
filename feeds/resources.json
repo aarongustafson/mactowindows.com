@@ -13,7 +13,7 @@
 		"title":       "The best apps to get when switching from Mac to Windows",
 		"author":      "Mark Linsangan",
 		
-		"image":       "http://res.cloudinary.com/mactowindows/image/fetch/w_1200,ar_16:9,c_lfill/https://cdn0.vox-cdn.com/thumbor/lLTjrJggmDxlOWAWCtVJx1wV_JI=/0x0:2039x1359/920x613/filters:focal(0x0:2039x1359):format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/50294073/mswindows2_2040.0.0.jpg",
+		"image":       "https://cdn0.vox-cdn.com/thumbor/lLTjrJggmDxlOWAWCtVJx1wV_JI=/0x0:2039x1359/920x613/filters:focal(0x0:2039x1359):format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/50294073/mswindows2_2040.0.0.jpg",
 		
 		"url":         "http://www.theverge.com/circuitbreaker/2016/8/4/12347032/switch-mac-to-windows-apps-utilities",
 		"description": "<p>These four utilities can help a Mac vet feel right at home on Microsoft’s platform.</p>",
@@ -60,7 +60,7 @@
 		"title":       "Opening Windows",
 		"author":      "Daniel Mall",
 		
-		"image":       "http://res.cloudinary.com/mactowindows/image/fetch/w_1200,ar_16:9,c_lfill/http://mactowindows.com/i/r/opening-windows.jpg",
+		"image":       "http://mactowindows.com/i/r/opening-windows.jpg",
 		
 		"url":         "http://danielmall.com/articles/opening-windows/",
 		"description": "<p>Designer Dan Mall discusses his decision to try a move from Mac to Windows and some of his concerns/trepidation.</p>",
@@ -278,7 +278,7 @@
 		"title":       "Building a Scalable Online Game with Azure - Part 2",
 		"author":      "Nick Pruehs",
 		
-		"image":       "http://res.cloudinary.com/mactowindows/image/fetch/w_1200,ar_16:9,c_lfill/http://www.gamasutra.com/db_area/images/blog/npruehs/Backend%20Architecture%203.png",
+		"image":       "http://www.gamasutra.com/db_area/images/blog/npruehs/Backend%20Architecture%203.png",
 		
 		"url":         "http://www.gamasutra.com/blogs/NickPruehs/20170221/291694/Building_a_Scalable_Online_Game_with_Azure__Part_2.php",
 		"description": "<p>Nick shows us how to a web service that acts as interface between the frontend and the actual backend services.</p>",
@@ -289,7 +289,7 @@
 		"title":       "Building a Scalable Online Game with Azure - Part 3",
 		"author":      "Nick Pruehs",
 		
-		"image":       "http://res.cloudinary.com/mactowindows/image/fetch/w_1200,ar_16:9,c_lfill/http://www.gamasutra.com/db_area/images/blog/292955/Backend%20Architecture%205.png",
+		"image":       "http://www.gamasutra.com/db_area/images/blog/292955/Backend%20Architecture%205.png",
 		
 		"url":         "http://www.gamasutra.com/blogs/NickPruehs/20170305/292955/Building_a_Scalable_Online_Game_with_Azure__Part_3.php",
 		"description": "<p>Nick teaches us how to persist state in a scalable database.</p>",
@@ -300,7 +300,7 @@
 		"title":       "Ellen Van Dusen Explores Color + Pattern with Interactive Book",
 		"author":      "Gregory Han",
 		
-		"image":       "http://res.cloudinary.com/mactowindows/image/fetch/w_1200,ar_16:9,c_lfill/http://mactowindows.com/i/r/Ellen-Van-Dusen.jpg",
+		"image":       "http://mactowindows.com/i/r/Ellen-Van-Dusen.jpg",
 		
 		"url":         "http://design-milk.com/surface-experiments-ellen-van-dusen-explores-color-pattern-interactive-abc-ryb-book/",
 		"description": "<p>Fashion designer and artist Ellen Van Dusen explores the creative possibilities with Microsoft Surface.</p>",
@@ -311,7 +311,7 @@
 		"title":       "Steven Harrington: Far Outttt",
 		"author":      "Dazed",
 		
-		"image":       "http://res.cloudinary.com/mactowindows/image/fetch/w_1200,ar_16:9,c_lfill/https://i.ytimg.com/vi/rubcrzqg92U/hqdefault.jpg",
+		"image":       "https://i.ytimg.com/vi/rubcrzqg92U/hqdefault.jpg",
 		
 		"url":         "https://www.youtube.com/watch?v=rubcrzqg92U",
 		"description": "<p>LA based designer Steve Harrington uses Surface to bring 2D illustration &amp; animation into 3D reality.</p>",
@@ -322,7 +322,7 @@
 		"title":       "The Madbury Club: Mobile Projection Unit",
 		"author":      "coolhunting",
 		
-		"image":       "http://res.cloudinary.com/mactowindows/image/fetch/w_1200,ar_16:9,c_lfill/https://i.ytimg.com/vi/ihzM7vebOR0/hqdefault.jpg",
+		"image":       "https://i.ytimg.com/vi/ihzM7vebOR0/hqdefault.jpg",
 		
 		"url":         "https://www.youtube.com/watch?v=ihzM7vebOR0",
 		"description": "<p>Brooklyn’s multi-talented The Madbury Club collaborated with Microsoft for ‘Surface Experiments’ — a new program inviting artists to experiment and realize new ideas using the Microsoft Surface.</p>",
@@ -333,7 +333,7 @@
 		"title":       "Art on Surface",
 		"author":      "Microsoft",
 		
-		"image":       "http://res.cloudinary.com/mactowindows/image/fetch/w_1200,ar_16:9,c_lfill/https://compass-ssl.microsoft.com/assets/19/02/19025c30-5649-4a56-8b3c-94791a301a42.jpg",
+		"image":       "https://compass-ssl.microsoft.com/assets/19/02/19025c30-5649-4a56-8b3c-94791a301a42.jpg",
 		
 		"url":         "https://www.microsoft.com/surface/en-us/art",
 		"description": "<p>Check out the global art project that spanned 17 cities in 12 countries where, over the course of 5 weeks, local artists have created beautiful murals bringing new color to their communities.</p>",
@@ -344,7 +344,7 @@
 		"title":       "Penny Arcade Surface Studio Review",
 		"author":      "Penny Arcade",
 		
-		"image":       "http://res.cloudinary.com/mactowindows/image/fetch/w_1200,ar_16:9,c_lfill/https://photos.smugmug.com/photos/i-zVCpPqB/0/XL/i-zVCpPqB-XL.jpg",
+		"image":       "https://photos.smugmug.com/photos/i-zVCpPqB/0/XL/i-zVCpPqB-XL.jpg",
 		
 		"url":         "https://www.penny-arcade.com/news/post/2016/10/26/the-surface-studio",
 		"description": "<p>Over on the Penny Arcade blog, Gabe shares his thoughts on the Microsoft Surface Studio.</p>",
@@ -355,7 +355,7 @@
 		"title":       "Syd Weiler demoes the Surface Studio",
 		"author":      "Adobe",
 		
-		"image":       "http://res.cloudinary.com/mactowindows/image/fetch/w_1200,ar_16:9,c_lfill/https://i.ytimg.com/vi/zzFvgQ7SHcg/hqdefault.jpg",
+		"image":       "https://i.ytimg.com/vi/zzFvgQ7SHcg/hqdefault.jpg",
 		
 		"url":         "https://www.youtube.com/watch?v=zzFvgQ7SHcg",
 		"description": "<p>Adobe resident artist Syd Weiler gives a drawing demo in Photoshop CC on the Surface Studio.</p>",
