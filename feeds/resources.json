@@ -360,6 +360,26 @@
 		"url":         "https://www.youtube.com/watch?v=zzFvgQ7SHcg",
 		"description": "<p>Adobe resident artist Syd Weiler gives a drawing demo in Photoshop CC on the Surface Studio.</p>",
 		"tags":        ["design"]
+	},
+
+	{
+		"title":       "The best apps to get when switching from Mac to Windows",
+		"author":      "Mark Linsangan",
+		
+		"image":       "https://cdn0.vox-cdn.com/uploads/chorus_asset/file/6888511/Seer_Example_1.0.png",
+		
+		"url":         "http://www.theverge.com/circuitbreaker/2016/8/4/12347032/switch-mac-to-windows-apps-utilities",
+		"description": "<p>Mark collects a few apps that make Windows 10 feel a little more Mac-like.</p>",
+		"tags":        ["productivity"]
+	},
+
+	{
+		"title":       "Switching - Irony and Operating systems",
+		"author":      "Brian Ketelsen",
+		
+		"url":         "https://brianketelsen.com/blog/switchers/",
+		"description": "<p>Brian discusses his reasons for switching from Mac to Windows.</p>",
+		"tags":        ["opinion"]
 	}
 
 ]
