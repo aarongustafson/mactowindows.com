@@ -30,6 +30,7 @@ gems:
   - jekyll-feed
   - jekyll-filter-by_tag
   - jekyll-generator-section_from_site_tags
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -46,3 +47,6 @@ post_teaser_limit: 5
 
 # Cloudinary
 cloudinary: http://res.cloudinary.com/mactowindows/image/fetch/w_WIDTH,ar_16:9,c_lfill/
+
+# GA
+GA_tracker: UA-86076128-3

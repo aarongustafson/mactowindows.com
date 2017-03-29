@@ -16,7 +16,7 @@
 - title: The best apps to get when switching from Mac to Windows
   author: Mark Linsangan
   url: http://www.theverge.com/circuitbreaker/2016/8/4/12347032/switch-mac-to-windows-apps-utilities
-  image: https://cdn0.vox-cdn.com/thumbor/lLTjrJggmDxlOWAWCtVJx1wV_JI=/0x0:2039x1359/920x613/filters:focal(0x0:2039x1359):format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/50294073/mswindows2_2040.0.0.jpg
+  image: https://cdn0.vox-cdn.com/uploads/chorus_image/image/50294073/mswindows2_2040.0.0.jpg
   description: "These four utilities can help a Mac vet feel right at home on Microsoft's platform."
   tags: [opinion]
   contributed_by: aarongustafson
@@ -281,3 +281,19 @@
   description: "Adobe resident artist Syd Weiler gives a drawing demo in Photoshop CC on the Surface Studio."
   tags: [design]
   contributed_by: ststimac
+
+- title: "The best apps to get when switching from Mac to Windows"
+  author: Mark Linsangan
+  url: http://www.theverge.com/circuitbreaker/2016/8/4/12347032/switch-mac-to-windows-apps-utilities
+  image: https://cdn0.vox-cdn.com/uploads/chorus_asset/file/6888511/Seer_Example_1.0.png
+  description: "Mark collects a few apps that make Windows 10 feel a little more Mac-like."
+  tags: [productivity]
+  contributed_by: bitcrazed
+
+- title: "Switching - Irony and Operating systems"
+  author: Brian Ketelsen
+  url: https://brianketelsen.com/blog/switchers/
+  description: "Brian discusses his reasons for switching from Mac to Windows."
+  tags: [opinion]
+  contributed_by: bitcrazed
+  

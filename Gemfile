@@ -23,4 +23,5 @@ group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
    gem "jekyll-filter-by_tag", "~>0.2"
    gem "jekyll-generator-section_from_site_tags", "~>0.2"
+   gem "jekyll-sitemap"
 end
