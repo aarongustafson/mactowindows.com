@@ -2,7 +2,7 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
     minifycss = require('gulp-clean-css'),
-    notify = require('gulp-notify'),
+    //notify = require('gulp-notify'),
     rename = require('gulp-rename'),
     csso = require('gulp-csso'),
     shorthand = require('gulp-shorthand'),
@@ -32,6 +32,6 @@ gulp.task('css', function() {
         // }))
         .pipe(csso())
         .pipe(minifycss())
-        .pipe(gulp.dest(paths.destPath))
-        .pipe(notify({ message: 'Styles task complete' }));
+        .pipe(gulp.dest(paths.destPath));
+       // .pipe(notify({ message: 'Styles task complete' }));
 });

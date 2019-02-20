@@ -5,7 +5,7 @@
   "repository": "https://github.com/aarongustafson/mactowindows.com",
   "private": true,
   "devDependencies": {
-    "gulp": "~3.9.0",
+    "gulp": "^3.9.1",
     "gulp-a11y": "^0.1.1",
     "gulp-autoprefixer": "~3.1.0",
     "gulp-cache": "~0.1.11",
@@ -18,12 +18,12 @@
     "gulp-filelog": "^0.4.1",
     "gulp-filter": "^4.0.0",
     "gulp-folders": "^1.0.0",
-    "gulp-newer": "^1.2.0",
     "gulp-if": "^2.0.0",
     "gulp-ignore": "^2.0.1",
     "gulp-imagemin": "^3.0.1",
     "gulp-insert": "^0.5.0",
     "gulp-jshint": "~2.0.1",
+    "gulp-newer": "^1.2.0",
     "gulp-notify": "^2.2.0",
     "gulp-rename": "~1.2.0",
     "gulp-ruby-sass": "~2.0.6",
@@ -34,9 +34,8 @@
     "gulp-webp": "^2.3.0",
     "jshint": "~2.9.2",
     "lodash": "^4.0.0",
-    "require-dir": "~0.3.0",
-    "pump": "^1.0.1"
+    "pump": "^1.0.1",
+    "require-dir": "~0.3.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
