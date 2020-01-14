@@ -297,3 +297,9 @@
   tags: [opinion]
   contributed_by: bitcrazed
   
+  - title: Managing Line-feeds in a Cross-platform Team via Git
+  author: Rey Bango
+  url: https://blog.reybango.com/2017/04/01/managing-line-feeds-cross-platform-team-git/
+  description: "How to ensure that differences in line-feeds don't bork your project."
+  tags: [development,web]
+  contributed_by: reybango
